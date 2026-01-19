@@ -33,7 +33,9 @@ def ensure_anchor_features(
     out_csv: Path = REPORTS / "anchor_features_v2.csv",
     gold_labels_csv: Path = Path("data/labels/gold_labels_llm_snrC.csv"),
     build_script: Path = Path("scripts/build_anchor_features.py"),
+    generic_advice_bank: Path = Path("data/generic_advice_bank.txt"),
 ) -> Path:
+
     """
     Ensures reports/anchor_features_v2.csv exists. If missing, build it from the gold labels CSV
     using scripts/build_anchor_features.py so fresh clones can train reproducibly.
@@ -52,6 +54,13 @@ def ensure_anchor_features(
             f"Missing feature builder script: {build_script}. "
             "Expected scripts/build_anchor_features.py to exist."
         )
+    
+    if not generic_advice_bank.exists():
+        raise SystemExit(
+            f"Missing generic advice bank file: {generic_advice_bank}. "
+            "Expected data/generic_advice_bank.txt to exist."
+        )
+
 
     out_csv.parent.mkdir(parents=True, exist_ok=True)
 
@@ -59,7 +68,9 @@ def ensure_anchor_features(
         sys.executable, str(build_script),
         "--input", str(gold_labels_csv),
         "--output", str(out_csv),
+        "--generic-advice-bank", str(generic_advice_bank),
     ]
+
     print("Building anchor features:")
     print("  " + " ".join(cmd))
     subprocess.check_call(cmd)
