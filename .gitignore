@@ -18,3 +18,4 @@ reports/*.txt
 # Data exports (optional)
 *.parquet
 .DS_Store
+.DS_Store
