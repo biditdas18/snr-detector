@@ -1,0 +1,229 @@
+**TL;DR →** Good — clean slate, keep your 95 YouTube links, rebuild from scratch with a clean, modern SNR-Detector V2. First, I’ll give you **exact commands to set up a pipenv environment**, and then **a brutally clear project plan with ETAs** so you know *exactly* what’s coming.
+
+---
+
+## **1. Set up Pipenv environment (copy-paste exactly)**
+
+Run these inside your folder:
+
+```bash
+cd /Users/biditdas/Desktop/projects/snr-detector-v2
+pip install pipenv
+pipenv --python 3.11
+pipenv shell
+```
+
+Now install the core packages:
+
+```bash
+pipenv install yt-dlp youtube-transcript-api pandas numpy scikit-learn openai python-dotenv tqdm
+```
+
+If you want preprocessing tools:
+
+```bash
+pipenv install nltk spacy
+python -m spacy download en_core_web_sm
+```
+
+If you want embeddings later:
+
+```bash
+pipenv install sentence-transformers
+```
+
+You’re done.
+Your shell should now show:
+
+```
+(snr-detector-v2) ➜
+```
+
+If it doesn’t, run:
+
+```bash
+pipenv shell
+```
+
+---
+
+## **2. Your folder structure (create these folders now)**
+
+Paste this:
+
+```bash
+mkdir data data/raw data/transcripts data/processed src models logs
+touch src/__init__.py
+touch src/transcript_fetcher.py
+touch src/preprocess.py
+touch src/snr_classifier.py
+touch src/constants.py
+touch main.py
+```
+
+This creates a clean v2 engineering-ready scaffold.
+
+---
+
+# **3. SNR-Detector V2 Full Roadmap (with realistic Bidit-friendly ETAs)**
+
+This time everything is focused, lean, and achievable without dataset pain.
+
+Below is the exact sequence you’ll execute, with **approximate time estimates**.
+
+---
+
+# ✅ **Phase 0 — Setup (Today, 15–20 min)**
+
+**Goals:**
+
+* Pipenv environment
+* Project scaffold
+* Verify imports work
+
+**What you’ll test:**
+
+```python
+python -c "import yt_dlp, pandas, sklearn; print('OK')"
+```
+
+---
+
+# ✅ **Phase 1 — Transcript Pipeline (Today, 1–1.5 hours)**
+
+**Use your existing 95 YouTube URLs.**
+We fetch transcripts automatically and save them locally.
+
+Files touched:
+
+* `src/transcript_fetcher.py`
+* `data/transcripts/`
+
+**Output:**
+`transcripts.csv` or one transcript per `.txt` file.
+
+**ETA:** 1 hour (because everything is automated).
+
+---
+
+# ✅ **Phase 2 — Labeling v2 (Tomorrow, 1–2 hours)**
+
+This is where you define the **taxonomy we actually want** (keep it simple this time):
+
+### Labels:
+
+* **high_signal**
+* **mid_signal**
+* **noise_fear**
+* **noise_promo**
+* **noise_generic**
+* **noise_offtopic**
+
+**NO perfection.
+Just functional signal vs. waste detection.**
+
+You will:
+
+* Look at 10–12 transcripts
+* Manually label them
+* Build your Gold Set (~15 items max)
+
+**ETA:** 1–2 hours (done only once).
+
+---
+
+# ✅ **Phase 3 — Feature Engine (1 day)**
+
+Implement features that matter:
+
+### Structural features:
+
+* Topic drift score (title vs transcript similarity)
+* Actionability count (imperatives)
+* Promo keyword density
+* Fear keyword density
+
+### Embedding features:
+
+* SentenceTransformer embeddings
+
+**ETA:** 3–4 hours max.
+
+---
+
+# ✅ **Phase 4 — Build & Train Classifier (1 day)**
+
+Use logistic regression or linear SVM.
+
+Why?
+Because classifiers → interpretable → perfect for your IEEE paper.
+
+**Steps:**
+
+* Split into train/test
+* Train
+* Generate confusion matrix
+* Export model to `models/snr_model.pkl`
+
+**ETA:** 2–3 hours.
+
+---
+
+# ✅ **Phase 5 — Evaluation + Logging (1–2 hours)**
+
+You’ll produce:
+
+* Accuracy
+* Precision/Recall/F1
+* Noise-type breakdown
+* Sample explanations
+
+**ETA:** 1–2 hours.
+
+---
+
+# ✅ **Phase 6 — CLI or Web API (Optional, 2–3 hours)**
+
+A simple CLI:
+
+```bash
+python main.py --url https://youtube.com/...
+```
+
+or a Flask API.
+
+---
+
+## **Total realistic ETA for SNR-Detector V2**
+
+| Phase        | Time        |
+| ------------ | ----------- |
+| Setup        | 20 min      |
+| Transcripts  | 1–1.5 hours |
+| Labels       | 1–2 hours   |
+| Features     | 3–4 hours   |
+| Classifier   | 2–3 hours   |
+| Evaluation   | 1–2 hours   |
+| Optional API | 2–3 hours   |
+
+### **Total: ~1.5 days of focused work OR 3 easy evenings.**
+
+This is extremely achievable and 100× more controlled than the v1 chaos.
+
+---
+
+# If you want, I can now generate:
+
+### ✔ `Pipfile` template
+
+### ✔ `transcript_fetcher.py` (complete working code)
+
+### ✔ A ready-to-run starter for your classifier
+
+### ✔ A cleaned-up taxonomy JSON
+
+### ✔ A shell script to automate everything end-to-end
+
+Just tell me:
+
+**“Generate the whole src boilerplate.”**
