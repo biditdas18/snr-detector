@@ -1,0 +1,736 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.040 --> 00:00:02.070 align:start position:0%
+ 
+but<00:00:00.120><c> if</c><00:00:00.240><c> I</c><00:00:00.320><c> were</c><00:00:00.520><c> you</c><00:00:00.880><c> I</c><00:00:01.000><c> wouldn't</c><00:00:01.439><c> just</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+but if I were you I wouldn't just
+ 
+
+00:00:02.080 --> 00:00:03.990 align:start position:0%
+but if I were you I wouldn't just
+understand<00:00:02.320><c> them</c><00:00:02.720><c> I</c><00:00:02.800><c> would</c><00:00:03.000><c> get</c><00:00:03.280><c> so</c><00:00:03.639><c> good</c><00:00:03.800><c> at</c>
+
+00:00:03.990 --> 00:00:04.000 align:start position:0%
+understand them I would get so good at
+ 
+
+00:00:04.000 --> 00:00:06.269 align:start position:0%
+understand them I would get so good at
+them<00:00:04.279><c> that</c><00:00:04.440><c> solving</c><00:00:04.799><c> a</c><00:00:05.000><c> simple</c><00:00:05.359><c> binary</c><00:00:05.720><c> search</c>
+
+00:00:06.269 --> 00:00:06.279 align:start position:0%
+them that solving a simple binary search
+ 
+
+00:00:06.279 --> 00:00:08.430 align:start position:0%
+them that solving a simple binary search
+or<00:00:06.440><c> a</c><00:00:06.560><c> sliding</c><00:00:06.919><c> window</c><00:00:07.359><c> problem</c><00:00:07.720><c> feels</c><00:00:08.240><c> as</c>
+
+00:00:08.430 --> 00:00:08.440 align:start position:0%
+or a sliding window problem feels as
+ 
+
+00:00:08.440 --> 00:00:10.629 align:start position:0%
+or a sliding window problem feels as
+easy<00:00:08.760><c> as</c><00:00:08.880><c> writing</c><00:00:09.160><c> a</c><00:00:09.280><c> for</c><00:00:09.599><c> Loop</c><00:00:10.080><c> have</c><00:00:10.200><c> you</c><00:00:10.400><c> guys</c>
+
+00:00:10.629 --> 00:00:10.639 align:start position:0%
+easy as writing a for Loop have you guys
+ 
+
+00:00:10.639 --> 00:00:12.070 align:start position:0%
+easy as writing a for Loop have you guys
+gotten<00:00:10.880><c> to</c><00:00:11.040><c> the</c><00:00:11.200><c> point</c><00:00:11.440><c> where</c><00:00:11.639><c> you</c><00:00:11.759><c> can</c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+gotten to the point where you can
+ 
+
+00:00:12.080 --> 00:00:14.270 align:start position:0%
+gotten to the point where you can
+Implement<00:00:12.799><c> some</c><00:00:12.960><c> of</c><00:00:13.080><c> the</c><00:00:13.240><c> more</c><00:00:13.519><c> like</c><00:00:13.719><c> trivial</c>
+
+00:00:14.270 --> 00:00:14.280 align:start position:0%
+Implement some of the more like trivial
+ 
+
+00:00:14.280 --> 00:00:16.590 align:start position:0%
+Implement some of the more like trivial
+algorithms<00:00:15.000><c> that</c><00:00:15.240><c> quickly</c><00:00:15.799><c> because</c><00:00:16.160><c> once</c><00:00:16.400><c> you</c>
+
+00:00:16.590 --> 00:00:16.600 align:start position:0%
+algorithms that quickly because once you
+ 
+
+00:00:16.600 --> 00:00:19.710 align:start position:0%
+algorithms that quickly because once you
+do<00:00:17.199><c> it</c><00:00:17.359><c> kind</c><00:00:17.480><c> of</c><00:00:17.720><c> opens</c><00:00:18.119><c> up</c><00:00:18.320><c> your</c><00:00:18.600><c> mind</c><00:00:19.039><c> to</c><00:00:19.320><c> like</c>
+
+00:00:19.710 --> 00:00:19.720 align:start position:0%
+do it kind of opens up your mind to like
+ 
+
+00:00:19.720 --> 00:00:21.830 align:start position:0%
+do it kind of opens up your mind to like
+a<00:00:19.920><c> level</c><00:00:20.240><c> of</c><00:00:20.439><c> like</c><00:00:20.720><c> Enlightenment</c><00:00:21.680><c> when</c>
+
+00:00:21.830 --> 00:00:21.840 align:start position:0%
+a level of like Enlightenment when
+ 
+
+00:00:21.840 --> 00:00:23.990 align:start position:0%
+a level of like Enlightenment when
+you're<00:00:22.320><c> first</c><00:00:22.720><c> learning</c><00:00:23.119><c> how</c><00:00:23.240><c> to</c><00:00:23.439><c> code</c>
+
+00:00:23.990 --> 00:00:24.000 align:start position:0%
+you're first learning how to code
+ 
+
+00:00:24.000 --> 00:00:25.910 align:start position:0%
+you're first learning how to code
+writing<00:00:24.320><c> out</c><00:00:24.519><c> for</c><00:00:24.920><c> loops</c><00:00:25.279><c> and</c><00:00:25.439><c> things</c><00:00:25.720><c> like</c>
+
+00:00:25.910 --> 00:00:25.920 align:start position:0%
+writing out for loops and things like
+ 
+
+00:00:25.920 --> 00:00:28.310 align:start position:0%
+writing out for loops and things like
+that<00:00:26.320><c> takes</c><00:00:26.640><c> like</c><00:00:26.920><c> cognitive</c><00:00:27.439><c> energy</c><00:00:28.160><c> it's</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+that takes like cognitive energy it's
+ 
+
+00:00:28.320 --> 00:00:30.550 align:start position:0%
+that takes like cognitive energy it's
+not<00:00:28.640><c> second</c><00:00:29.119><c> nature</c><00:00:29.840><c> like</c><00:00:30.080><c> writing</c><00:00:30.320><c> out</c>
+
+00:00:30.550 --> 00:00:30.560 align:start position:0%
+not second nature like writing out
+ 
+
+00:00:30.560 --> 00:00:31.830 align:start position:0%
+not second nature like writing out
+variable<00:00:30.960><c> names</c><00:00:31.279><c> especially</c><00:00:31.599><c> when</c><00:00:31.720><c> you're</c>
+
+00:00:31.830 --> 00:00:31.840 align:start position:0%
+variable names especially when you're
+ 
+
+00:00:31.840 --> 00:00:33.389 align:start position:0%
+variable names especially when you're
+learning<00:00:32.160><c> a</c><00:00:32.279><c> new</c><00:00:32.520><c> language</c><00:00:32.880><c> for</c><00:00:33.000><c> the</c><00:00:33.160><c> first</c>
+
+00:00:33.389 --> 00:00:33.399 align:start position:0%
+learning a new language for the first
+ 
+
+00:00:33.399 --> 00:00:35.510 align:start position:0%
+learning a new language for the first
+time<00:00:33.800><c> it</c><00:00:34.079><c> it's</c><00:00:34.399><c> like</c><00:00:34.559><c> there's</c><00:00:34.840><c> friction</c><00:00:35.360><c> in</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+time it it's like there's friction in
+ 
+
+00:00:35.520 --> 00:00:37.310 align:start position:0%
+time it it's like there's friction in
+just<00:00:35.719><c> like</c><00:00:35.879><c> getting</c><00:00:36.160><c> your</c><00:00:36.480><c> thoughts</c><00:00:36.920><c> into</c>
+
+00:00:37.310 --> 00:00:37.320 align:start position:0%
+just like getting your thoughts into
+ 
+
+00:00:37.320 --> 00:00:39.630 align:start position:0%
+just like getting your thoughts into
+code<00:00:37.960><c> but</c><00:00:38.440><c> when</c><00:00:38.559><c> you</c><00:00:38.680><c> get</c><00:00:38.800><c> to</c><00:00:38.920><c> the</c><00:00:39.079><c> next</c><00:00:39.320><c> level</c>
+
+00:00:39.630 --> 00:00:39.640 align:start position:0%
+code but when you get to the next level
+ 
+
+00:00:39.640 --> 00:00:41.950 align:start position:0%
+code but when you get to the next level
+like<00:00:39.800><c> you</c><00:00:39.920><c> can</c><00:00:40.440><c> write</c><00:00:40.719><c> out</c><00:00:41.039><c> binary</c><00:00:41.440><c> search</c><00:00:41.800><c> or</c>
+
+00:00:41.950 --> 00:00:41.960 align:start position:0%
+like you can write out binary search or
+ 
+
+00:00:41.960 --> 00:00:44.110 align:start position:0%
+like you can write out binary search or
+a<00:00:42.160><c> basic</c><00:00:42.520><c> sliding</c><00:00:42.960><c> window</c><00:00:43.280><c> or</c><00:00:43.440><c> even</c><00:00:43.640><c> a</c><00:00:43.840><c> depth</c>
+
+00:00:44.110 --> 00:00:44.120 align:start position:0%
+a basic sliding window or even a depth
+ 
+
+00:00:44.120 --> 00:00:47.310 align:start position:0%
+a basic sliding window or even a depth
+first<00:00:44.399><c> search</c><00:00:44.879><c> algorithm</c><00:00:45.719><c> very</c><00:00:46.160><c> very</c><00:00:46.480><c> quickly</c>
+
+00:00:47.310 --> 00:00:47.320 align:start position:0%
+first search algorithm very very quickly
+ 
+
+00:00:47.320 --> 00:00:49.189 align:start position:0%
+first search algorithm very very quickly
+that<00:00:47.600><c> takes</c><00:00:47.920><c> zero</c><00:00:48.320><c> effort</c><00:00:48.680><c> and</c><00:00:48.879><c> that's</c><00:00:49.039><c> when</c>
+
+00:00:49.189 --> 00:00:49.199 align:start position:0%
+that takes zero effort and that's when
+ 
+
+00:00:49.199 --> 00:00:50.670 align:start position:0%
+that takes zero effort and that's when
+you<00:00:49.320><c> can</c><00:00:49.480><c> kind</c><00:00:49.559><c> of</c><00:00:49.680><c> start</c><00:00:50.000><c> focusing</c><00:00:50.440><c> on</c><00:00:50.559><c> the</c>
+
+00:00:50.670 --> 00:00:50.680 align:start position:0%
+you can kind of start focusing on the
+ 
+
+00:00:50.680 --> 00:00:53.189 align:start position:0%
+you can kind of start focusing on the
+more<00:00:51.000><c> complicated</c><00:00:51.640><c> stuff</c><00:00:51.920><c> you</c><00:00:52.000><c> can</c><00:00:52.239><c> focus</c><00:00:52.640><c> on</c>
+
+00:00:53.189 --> 00:00:53.199 align:start position:0%
+more complicated stuff you can focus on
+ 
+
+00:00:53.199 --> 00:00:54.750 align:start position:0%
+more complicated stuff you can focus on
+like<00:00:53.440><c> how</c><00:00:53.640><c> are</c><00:00:53.760><c> you</c><00:00:54.039><c> branching</c><00:00:54.520><c> your</c>
+
+00:00:54.750 --> 00:00:54.760 align:start position:0%
+like how are you branching your
+ 
+
+00:00:54.760 --> 00:00:56.590 align:start position:0%
+like how are you branching your
+recursion<00:00:55.399><c> how</c><00:00:55.520><c> are</c><00:00:55.680><c> you</c><00:00:56.079><c> creating</c><00:00:56.440><c> the</c>
+
+00:00:56.590 --> 00:00:56.600 align:start position:0%
+recursion how are you creating the
+ 
+
+00:00:56.600 --> 00:00:59.069 align:start position:0%
+recursion how are you creating the
+branch<00:00:57.039><c> how</c><00:00:57.280><c> like</c><00:00:57.520><c> what</c><00:00:57.920><c> is</c><00:00:58.399><c> the</c><00:00:58.800><c> condition</c>
+
+00:00:59.069 --> 00:00:59.079 align:start position:0%
+branch how like what is the condition
+ 
+
+00:00:59.079 --> 00:01:00.830 align:start position:0%
+branch how like what is the condition
+for<00:00:59.280><c> shrinking</c><00:00:59.719><c> the</c><00:00:59.920><c> the</c><00:01:00.000><c> sliding</c><00:01:00.359><c> window</c><00:01:00.680><c> and</c>
+
+00:01:00.830 --> 00:01:00.840 align:start position:0%
+for shrinking the the sliding window and
+ 
+
+00:01:00.840 --> 00:01:02.430 align:start position:0%
+for shrinking the the sliding window and
+increasing<00:01:01.320><c> the</c><00:01:01.440><c> sliding</c><00:01:01.760><c> window</c><00:01:02.039><c> and</c><00:01:02.199><c> things</c>
+
+00:01:02.430 --> 00:01:02.440 align:start position:0%
+increasing the sliding window and things
+ 
+
+00:01:02.440 --> 00:01:04.829 align:start position:0%
+increasing the sliding window and things
+like<00:01:02.680><c> that</c><00:01:03.160><c> and</c><00:01:03.320><c> people</c><00:01:03.719><c> skip</c><00:01:04.000><c> a</c><00:01:04.199><c> step</c><00:01:04.559><c> people</c>
+
+00:01:04.829 --> 00:01:04.839 align:start position:0%
+like that and people skip a step people
+ 
+
+00:01:04.839 --> 00:01:07.109 align:start position:0%
+like that and people skip a step people
+don't<00:01:05.280><c> get</c><00:01:05.640><c> good</c><00:01:05.960><c> at</c><00:01:06.119><c> the</c><00:01:06.320><c> basics</c><00:01:06.840><c> they</c><00:01:06.960><c> just</c>
+
+00:01:07.109 --> 00:01:07.119 align:start position:0%
+don't get good at the basics they just
+ 
+
+00:01:07.119 --> 00:01:09.390 align:start position:0%
+don't get good at the basics they just
+try<00:01:07.280><c> to</c><00:01:07.439><c> go</c><00:01:07.600><c> to</c><00:01:07.759><c> the</c><00:01:07.960><c> harder</c><00:01:08.400><c> stuff</c><00:01:08.960><c> like</c><00:01:09.200><c> why</c>
+
+00:01:09.390 --> 00:01:09.400 align:start position:0%
+try to go to the harder stuff like why
+ 
+
+00:01:09.400 --> 00:01:11.830 align:start position:0%
+try to go to the harder stuff like why
+not<00:01:09.680><c> just</c><00:01:09.880><c> solve</c><00:01:10.560><c> a</c><00:01:10.799><c> really</c><00:01:11.119><c> really</c><00:01:11.439><c> simple</c>
+
+00:01:11.830 --> 00:01:11.840 align:start position:0%
+not just solve a really really simple
+ 
+
+00:01:11.840 --> 00:01:14.109 align:start position:0%
+not just solve a really really simple
+binary<00:01:12.200><c> search</c><00:01:12.560><c> or</c><00:01:12.720><c> sliding</c><00:01:13.119><c> window</c><00:01:13.560><c> problem</c>
+
+00:01:14.109 --> 00:01:14.119 align:start position:0%
+binary search or sliding window problem
+ 
+
+00:01:14.119 --> 00:01:16.270 align:start position:0%
+binary search or sliding window problem
+five<00:01:14.439><c> times</c><00:01:14.920><c> why</c><00:01:15.080><c> not</c><00:01:15.320><c> do</c><00:01:15.479><c> it</c><00:01:15.880><c> because</c><00:01:16.119><c> it's</c>
+
+00:01:16.270 --> 00:01:16.280 align:start position:0%
+five times why not do it because it's
+ 
+
+00:01:16.280 --> 00:01:17.870 align:start position:0%
+five times why not do it because it's
+not<00:01:16.439><c> going</c><00:01:16.560><c> to</c><00:01:16.759><c> take</c><00:01:16.960><c> you</c><00:01:17.159><c> very</c><00:01:17.400><c> long</c><00:01:17.640><c> if</c><00:01:17.759><c> you</c>
+
+00:01:17.870 --> 00:01:17.880 align:start position:0%
+not going to take you very long if you
+ 
+
+00:01:17.880 --> 00:01:20.230 align:start position:0%
+not going to take you very long if you
+solve<00:01:18.119><c> it</c><00:01:18.280><c> the</c><00:01:18.400><c> first</c><00:01:18.640><c> time</c><00:01:18.799><c> in</c><00:01:19.119><c> 15</c><00:01:19.520><c> 20</c><00:01:19.799><c> minutes</c>
+
+00:01:20.230 --> 00:01:20.240 align:start position:0%
+solve it the first time in 15 20 minutes
+ 
+
+00:01:20.240 --> 00:01:21.749 align:start position:0%
+solve it the first time in 15 20 minutes
+solve<00:01:20.479><c> it</c><00:01:20.720><c> again</c><00:01:21.000><c> the</c><00:01:21.159><c> next</c><00:01:21.360><c> day</c><00:01:21.520><c> it'll</c>
+
+00:01:21.749 --> 00:01:21.759 align:start position:0%
+solve it again the next day it'll
+ 
+
+00:01:21.759 --> 00:01:23.310 align:start position:0%
+solve it again the next day it'll
+probably<00:01:21.960><c> take</c><00:01:22.079><c> you</c><00:01:22.240><c> 10</c><00:01:22.479><c> minutes</c><00:01:22.920><c> solve</c><00:01:23.159><c> it</c>
+
+00:01:23.310 --> 00:01:23.320 align:start position:0%
+probably take you 10 minutes solve it
+ 
+
+00:01:23.320 --> 00:01:24.510 align:start position:0%
+probably take you 10 minutes solve it
+again<00:01:23.520><c> the</c><00:01:23.640><c> next</c><00:01:23.920><c> day</c><00:01:24.040><c> it'll</c><00:01:24.200><c> probably</c><00:01:24.400><c> take</c>
+
+00:01:24.510 --> 00:01:24.520 align:start position:0%
+again the next day it'll probably take
+ 
+
+00:01:24.520 --> 00:01:26.789 align:start position:0%
+again the next day it'll probably take
+you<00:01:24.680><c> like</c><00:01:24.920><c> 5</c><00:01:25.159><c> minutes</c><00:01:25.799><c> and</c><00:01:26.119><c> you'll</c><00:01:26.360><c> get</c><00:01:26.520><c> so</c>
+
+00:01:26.789 --> 00:01:26.799 align:start position:0%
+you like 5 minutes and you'll get so
+ 
+
+00:01:26.799 --> 00:01:28.310 align:start position:0%
+you like 5 minutes and you'll get so
+good<00:01:27.159><c> you'll</c><00:01:27.360><c> be</c><00:01:27.439><c> able</c><00:01:27.600><c> to</c><00:01:27.720><c> solve</c><00:01:27.920><c> it</c><00:01:28.040><c> in</c><00:01:28.200><c> like</c>
+
+00:01:28.310 --> 00:01:28.320 align:start position:0%
+good you'll be able to solve it in like
+ 
+
+00:01:28.320 --> 00:01:30.069 align:start position:0%
+good you'll be able to solve it in like
+2<00:01:28.560><c> minutes</c><00:01:29.040><c> and</c><00:01:29.119><c> you're</c><00:01:29.320><c> probably</c><00:01:29.520><c> thinking</c>
+
+00:01:30.069 --> 00:01:30.079 align:start position:0%
+2 minutes and you're probably thinking
+ 
+
+00:01:30.079 --> 00:01:31.390 align:start position:0%
+2 minutes and you're probably thinking
+well<00:01:30.200><c> I</c><00:01:30.280><c> don't</c><00:01:30.360><c> want</c><00:01:30.479><c> to</c><00:01:30.720><c> memorize</c><00:01:31.240><c> the</c>
+
+00:01:31.390 --> 00:01:31.400 align:start position:0%
+well I don't want to memorize the
+ 
+
+00:01:31.400 --> 00:01:33.230 align:start position:0%
+well I don't want to memorize the
+solution<00:01:31.799><c> I</c><00:01:31.880><c> don't</c><00:01:32.000><c> want</c><00:01:32.079><c> to</c><00:01:32.240><c> be</c><00:01:32.759><c> that</c><00:01:32.920><c> type</c><00:01:33.079><c> of</c>
+
+00:01:33.230 --> 00:01:33.240 align:start position:0%
+solution I don't want to be that type of
+ 
+
+00:01:33.240 --> 00:01:34.910 align:start position:0%
+solution I don't want to be that type of
+person<00:01:33.479><c> where</c><00:01:33.600><c> I</c><00:01:33.720><c> just</c><00:01:33.920><c> memorize</c><00:01:34.360><c> it</c><00:01:34.720><c> there's</c>
+
+00:01:34.910 --> 00:01:34.920 align:start position:0%
+person where I just memorize it there's
+ 
+
+00:01:34.920 --> 00:01:37.350 align:start position:0%
+person where I just memorize it there's
+an<00:01:35.119><c> element</c><00:01:35.520><c> of</c><00:01:35.680><c> memorization</c><00:01:36.479><c> in</c><00:01:36.799><c> every</c><00:01:37.200><c> type</c>
+
+00:01:37.350 --> 00:01:37.360 align:start position:0%
+an element of memorization in every type
+ 
+
+00:01:37.360 --> 00:01:39.149 align:start position:0%
+an element of memorization in every type
+of<00:01:37.520><c> learning</c><00:01:38.159><c> but</c><00:01:38.320><c> of</c><00:01:38.479><c> course</c><00:01:38.680><c> you</c><00:01:38.799><c> should</c><00:01:39.000><c> be</c>
+
+00:01:39.149 --> 00:01:39.159 align:start position:0%
+of learning but of course you should be
+ 
+
+00:01:39.159 --> 00:01:41.030 align:start position:0%
+of learning but of course you should be
+able<00:01:39.399><c> to</c><00:01:39.880><c> understand</c><00:01:40.200><c> every</c><00:01:40.399><c> single</c><00:01:40.680><c> line</c><00:01:40.840><c> of</c>
+
+00:01:41.030 --> 00:01:41.040 align:start position:0%
+able to understand every single line of
+ 
+
+00:01:41.040 --> 00:01:42.910 align:start position:0%
+able to understand every single line of
+code<00:01:41.280><c> that's</c><00:01:41.479><c> written</c><00:01:41.799><c> here</c><00:01:42.200><c> in</c><00:01:42.360><c> this</c><00:01:42.560><c> binary</c>
+
+00:01:42.910 --> 00:01:42.920 align:start position:0%
+code that's written here in this binary
+ 
+
+00:01:42.920 --> 00:01:45.709 align:start position:0%
+code that's written here in this binary
+search<00:01:43.640><c> and</c><00:01:44.000><c> it's</c><00:01:44.159><c> not</c><00:01:44.439><c> hard</c><00:01:44.640><c> to</c><00:01:44.840><c> do</c><00:01:45.399><c> yeah</c><00:01:45.560><c> it's</c>
+
+00:01:45.709 --> 00:01:45.719 align:start position:0%
+search and it's not hard to do yeah it's
+ 
+
+00:01:45.719 --> 00:01:48.350 align:start position:0%
+search and it's not hard to do yeah it's
+it's<00:01:45.920><c> not</c><00:01:46.240><c> about</c><00:01:46.600><c> like</c><00:01:46.759><c> memorizing</c><00:01:47.439><c> it</c><00:01:48.119><c> like</c>
+
+00:01:48.350 --> 00:01:48.360 align:start position:0%
+it's not about like memorizing it like
+ 
+
+00:01:48.360 --> 00:01:50.109 align:start position:0%
+it's not about like memorizing it like
+your<00:01:48.600><c> brain</c><00:01:49.040><c> works</c><00:01:49.399><c> like</c><00:01:49.560><c> that</c><00:01:49.799><c> like</c><00:01:49.920><c> your</c>
+
+00:01:50.109 --> 00:01:50.119 align:start position:0%
+your brain works like that like your
+ 
+
+00:01:50.119 --> 00:01:52.870 align:start position:0%
+your brain works like that like your
+brain<00:01:50.479><c> will</c><00:01:51.159><c> like</c><00:01:51.280><c> your</c><00:01:51.439><c> brain</c><00:01:51.759><c> memorizes</c><00:01:52.680><c> the</c>
+
+00:01:52.870 --> 00:01:52.880 align:start position:0%
+brain will like your brain memorizes the
+ 
+
+00:01:52.880 --> 00:01:54.590 align:start position:0%
+brain will like your brain memorizes the
+location<00:01:53.439><c> of</c><00:01:53.600><c> like</c><00:01:53.759><c> the</c><00:01:53.960><c> keys</c><00:01:54.240><c> on</c><00:01:54.399><c> your</c>
+
+00:01:54.590 --> 00:01:54.600 align:start position:0%
+location of like the keys on your
+ 
+
+00:01:54.600 --> 00:01:56.109 align:start position:0%
+location of like the keys on your
+keyboard<00:01:55.079><c> that's</c><00:01:55.240><c> why</c><00:01:55.360><c> you're</c><00:01:55.520><c> able</c><00:01:55.719><c> to</c><00:01:55.920><c> type</c>
+
+00:01:56.109 --> 00:01:56.119 align:start position:0%
+keyboard that's why you're able to type
+ 
+
+00:01:56.119 --> 00:01:57.670 align:start position:0%
+keyboard that's why you're able to type
+it<00:01:56.240><c> out</c><00:01:56.520><c> quickly</c><00:01:57.000><c> you</c><00:01:57.119><c> don't</c><00:01:57.280><c> really</c><00:01:57.439><c> have</c><00:01:57.560><c> to</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+it out quickly you don't really have to
+ 
+
+00:01:57.680 --> 00:01:59.870 align:start position:0%
+it out quickly you don't really have to
+think<00:01:57.880><c> about</c><00:01:58.119><c> where's</c><00:01:58.479><c> like</c><00:01:58.680><c> the</c><00:01:58.840><c> a</c><00:01:59.159><c> key</c><00:01:59.680><c> and</c>
+
+00:01:59.870 --> 00:01:59.880 align:start position:0%
+think about where's like the a key and
+ 
+
+00:01:59.880 --> 00:02:01.350 align:start position:0%
+think about where's like the a key and
+and<00:02:00.159><c> that's</c><00:02:00.360><c> kind</c><00:02:00.479><c> of</c><00:02:00.600><c> what</c><00:02:00.680><c> you</c><00:02:00.759><c> want</c><00:02:00.880><c> to</c><00:02:01.159><c> get</c>
+
+00:02:01.350 --> 00:02:01.360 align:start position:0%
+and that's kind of what you want to get
+ 
+
+00:02:01.360 --> 00:02:03.670 align:start position:0%
+and that's kind of what you want to get
+to<00:02:01.799><c> when</c><00:02:01.920><c> you're</c><00:02:02.280><c> solving</c><00:02:02.759><c> basic</c><00:02:03.079><c> leak</c><00:02:03.360><c> code</c>
+
+00:02:03.670 --> 00:02:03.680 align:start position:0%
+to when you're solving basic leak code
+ 
+
+00:02:03.680 --> 00:02:06.029 align:start position:0%
+to when you're solving basic leak code
+problems<00:02:04.360><c> and</c><00:02:04.479><c> when</c><00:02:04.600><c> you</c><00:02:04.680><c> can</c><00:02:04.840><c> do</c><00:02:05.079><c> that</c><00:02:05.560><c> then</c>
+
+00:02:06.029 --> 00:02:06.039 align:start position:0%
+problems and when you can do that then
+ 
+
+00:02:06.039 --> 00:02:07.270 align:start position:0%
+problems and when you can do that then
+that's<00:02:06.200><c> when</c><00:02:06.320><c> you</c><00:02:06.479><c> get</c><00:02:06.560><c> to</c><00:02:06.759><c> like</c><00:02:06.880><c> the</c><00:02:07.039><c> next</c>
+
+00:02:07.270 --> 00:02:07.280 align:start position:0%
+that's when you get to like the next
+ 
+
+00:02:07.280 --> 00:02:09.550 align:start position:0%
+that's when you get to like the next
+layer<00:02:08.080><c> of</c><00:02:08.280><c> Enlightenment</c><00:02:09.000><c> when</c><00:02:09.119><c> it</c><00:02:09.200><c> comes</c><00:02:09.399><c> to</c>
+
+00:02:09.550 --> 00:02:09.560 align:start position:0%
+layer of Enlightenment when it comes to
+ 
+
+00:02:09.560 --> 00:02:10.990 align:start position:0%
+layer of Enlightenment when it comes to
+lead<00:02:09.840><c> code</c><00:02:10.119><c> that's</c><00:02:10.280><c> when</c><00:02:10.399><c> you</c><00:02:10.520><c> don't</c><00:02:10.759><c> even</c>
+
+00:02:10.990 --> 00:02:11.000 align:start position:0%
+lead code that's when you don't even
+ 
+
+00:02:11.000 --> 00:02:12.470 align:start position:0%
+lead code that's when you don't even
+think<00:02:11.239><c> about</c><00:02:11.440><c> the</c><00:02:11.560><c> code</c><00:02:11.840><c> anymore</c><00:02:12.160><c> you're</c><00:02:12.280><c> just</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+think about the code anymore you're just
+ 
+
+00:02:12.480 --> 00:02:14.030 align:start position:0%
+think about the code anymore you're just
+focusing<00:02:12.840><c> on</c><00:02:13.000><c> the</c><00:02:13.239><c> problem</c><00:02:13.560><c> once</c><00:02:13.720><c> you</c><00:02:13.879><c> know</c>
+
+00:02:14.030 --> 00:02:14.040 align:start position:0%
+focusing on the problem once you know
+ 
+
+00:02:14.040 --> 00:02:15.830 align:start position:0%
+focusing on the problem once you know
+how<00:02:14.160><c> to</c><00:02:14.280><c> solve</c><00:02:14.560><c> a</c><00:02:14.760><c> problem</c><00:02:15.200><c> the</c><00:02:15.360><c> code</c><00:02:15.599><c> just</c>
+
+00:02:15.830 --> 00:02:15.840 align:start position:0%
+how to solve a problem the code just
+ 
+
+00:02:15.840 --> 00:02:17.630 align:start position:0%
+how to solve a problem the code just
+writes<00:02:16.239><c> itself</c><00:02:16.920><c> and</c><00:02:17.160><c> that's</c><00:02:17.319><c> what</c><00:02:17.440><c> you</c><00:02:17.519><c> want</c>
+
+00:02:17.630 --> 00:02:17.640 align:start position:0%
+writes itself and that's what you want
+ 
+
+00:02:17.640 --> 00:02:19.670 align:start position:0%
+writes itself and that's what you want
+to<00:02:17.840><c> get</c><00:02:17.959><c> to</c><00:02:18.599><c> like</c><00:02:18.760><c> you</c><00:02:18.879><c> should</c><00:02:19.120><c> be</c><00:02:19.280><c> able</c><00:02:19.480><c> to</c>
+
+00:02:19.670 --> 00:02:19.680 align:start position:0%
+to get to like you should be able to
+ 
+
+00:02:19.680 --> 00:02:22.350 align:start position:0%
+to get to like you should be able to
+tell<00:02:19.879><c> me</c><00:02:20.319><c> what</c><00:02:20.480><c> would</c><00:02:20.720><c> go</c><00:02:21.000><c> wrong</c><00:02:21.360><c> if</c><00:02:21.560><c> I</c><00:02:21.720><c> removed</c>
+
+00:02:22.350 --> 00:02:22.360 align:start position:0%
+tell me what would go wrong if I removed
+ 
+
+00:02:22.360 --> 00:02:24.990 align:start position:0%
+tell me what would go wrong if I removed
+any<00:02:22.640><c> of</c><00:02:22.920><c> these</c><00:02:23.280><c> lines</c><00:02:23.519><c> of</c><00:02:23.800><c> code</c><00:02:24.200><c> without</c><00:02:24.879><c> can</c>
+
+00:02:24.990 --> 00:02:25.000 align:start position:0%
+any of these lines of code without can
+ 
+
+00:02:25.000 --> 00:02:26.589 align:start position:0%
+any of these lines of code without can
+you<00:02:25.200><c> guys</c><00:02:25.360><c> tell</c><00:02:25.560><c> me</c><00:02:25.959><c> what's</c><00:02:26.120><c> going</c><00:02:26.200><c> to</c><00:02:26.400><c> go</c>
+
+00:02:26.589 --> 00:02:26.599 align:start position:0%
+you guys tell me what's going to go
+ 
+
+00:02:26.599 --> 00:02:29.830 align:start position:0%
+you guys tell me what's going to go
+wrong<00:02:27.080><c> if</c><00:02:27.239><c> we</c><00:02:27.440><c> don't</c><00:02:27.879><c> check</c><00:02:28.480><c> if</c><00:02:28.879><c> the</c><00:02:29.040><c> row</c><00:02:29.360><c> or</c>
+
+00:02:29.830 --> 00:02:29.840 align:start position:0%
+wrong if we don't check if the row or
+ 
+
+00:02:29.840 --> 00:02:32.350 align:start position:0%
+wrong if we don't check if the row or
+column<00:02:30.480><c> is</c><00:02:30.800><c> out</c><00:02:31.000><c> of</c><00:02:31.200><c> bounds</c><00:02:31.920><c> yeah</c><00:02:32.080><c> out</c><00:02:32.239><c> of</c>
+
+00:02:32.350 --> 00:02:32.360 align:start position:0%
+column is out of bounds yeah out of
+ 
+
+00:02:32.360 --> 00:02:34.869 align:start position:0%
+column is out of bounds yeah out of
+bounds<00:02:32.720><c> eror</c><00:02:33.480><c> right</c><00:02:34.040><c> that's</c><00:02:34.319><c> the</c><00:02:34.480><c> type</c><00:02:34.680><c> of</c>
+
+00:02:34.869 --> 00:02:34.879 align:start position:0%
+bounds eror right that's the type of
+ 
+
+00:02:34.879 --> 00:02:36.949 align:start position:0%
+bounds eror right that's the type of
+thing<00:02:35.160><c> that</c><00:02:35.319><c> I</c><00:02:35.480><c> do</c><00:02:35.920><c> when</c><00:02:36.080><c> I</c><00:02:36.200><c> was</c><00:02:36.360><c> interviewing</c>
+
+00:02:36.949 --> 00:02:36.959 align:start position:0%
+thing that I do when I was interviewing
+ 
+
+00:02:36.959 --> 00:02:39.309 align:start position:0%
+thing that I do when I was interviewing
+people<00:02:37.560><c> you</c><00:02:37.800><c> can</c><00:02:37.959><c> write</c><00:02:38.160><c> out</c><00:02:38.360><c> the</c><00:02:38.560><c> code</c><00:02:39.040><c> cool</c>
+
+00:02:39.309 --> 00:02:39.319 align:start position:0%
+people you can write out the code cool
+ 
+
+00:02:39.319 --> 00:02:41.149 align:start position:0%
+people you can write out the code cool
+you<00:02:39.480><c> write</c><00:02:39.800><c> be</c><00:02:40.159><c> you</c><00:02:40.239><c> can</c><00:02:40.360><c> write</c><00:02:40.519><c> a</c><00:02:40.680><c> DFS</c>
+
+00:02:41.149 --> 00:02:41.159 align:start position:0%
+you write be you can write a DFS
+ 
+
+00:02:41.159 --> 00:02:43.270 align:start position:0%
+you write be you can write a DFS
+algorithm<00:02:41.720><c> good</c><00:02:41.840><c> for</c><00:02:42.080><c> you</c><00:02:42.440><c> but</c><00:02:42.599><c> if</c><00:02:42.720><c> you</c><00:02:42.959><c> can't</c>
+
+00:02:43.270 --> 00:02:43.280 align:start position:0%
+algorithm good for you but if you can't
+ 
+
+00:02:43.280 --> 00:02:45.869 align:start position:0%
+algorithm good for you but if you can't
+tell<00:02:43.519><c> me</c><00:02:44.120><c> what's</c><00:02:44.319><c> going</c><00:02:44.440><c> to</c><00:02:44.640><c> go</c><00:02:44.879><c> wrong</c><00:02:45.440><c> if</c><00:02:45.599><c> I</c>
+
+00:02:45.869 --> 00:02:45.879 align:start position:0%
+tell me what's going to go wrong if I
+ 
+
+00:02:45.879 --> 00:02:48.190 align:start position:0%
+tell me what's going to go wrong if I
+took<00:02:46.360><c> these</c><00:02:46.560><c> two</c><00:02:46.840><c> lines</c><00:02:47.120><c> of</c><00:02:47.280><c> code</c><00:02:47.599><c> out</c><00:02:48.040><c> then</c>
+
+00:02:48.190 --> 00:02:48.200 align:start position:0%
+took these two lines of code out then
+ 
+
+00:02:48.200 --> 00:02:50.790 align:start position:0%
+took these two lines of code out then
+you<00:02:48.400><c> really</c><00:02:48.720><c> don't</c><00:02:49.400><c> understand</c><00:02:49.640><c> it</c><00:02:50.319><c> and</c><00:02:50.720><c> I</c>
+
+00:02:50.790 --> 00:02:50.800 align:start position:0%
+you really don't understand it and I
+ 
+
+00:02:50.800 --> 00:02:52.670 align:start position:0%
+you really don't understand it and I
+think<00:02:51.040><c> that's</c><00:02:51.360><c> fair</c><00:02:52.000><c> it's</c><00:02:52.120><c> not</c><00:02:52.319><c> like</c><00:02:52.440><c> I'm</c>
+
+00:02:52.670 --> 00:02:52.680 align:start position:0%
+think that's fair it's not like I'm
+ 
+
+00:02:52.680 --> 00:02:55.309 align:start position:0%
+think that's fair it's not like I'm
+picking<00:02:53.000><c> on</c><00:02:53.280><c> people</c><00:02:53.640><c> if</c><00:02:53.840><c> I'm</c><00:02:54.200><c> asking</c><00:02:54.560><c> you</c><00:02:55.120><c> if</c>
+
+00:02:55.309 --> 00:02:55.319 align:start position:0%
+picking on people if I'm asking you if
+ 
+
+00:02:55.319 --> 00:02:58.229 align:start position:0%
+picking on people if I'm asking you if
+you<00:02:55.560><c> remove</c><00:02:56.040><c> these</c><00:02:56.200><c> two</c><00:02:56.440><c> lines</c><00:02:56.680><c> of</c><00:02:57.040><c> code</c><00:02:58.040><c> why</c>
+
+00:02:58.229 --> 00:02:58.239 align:start position:0%
+you remove these two lines of code why
+ 
+
+00:02:58.239 --> 00:02:59.990 align:start position:0%
+you remove these two lines of code why
+would<00:02:58.400><c> the</c><00:02:58.560><c> code</c><00:02:58.800><c> no</c><00:02:59.000><c> longer</c><00:02:59.319><c> work</c><00:02:59.840><c> because</c>
+
+00:02:59.990 --> 00:03:00.000 align:start position:0%
+would the code no longer work because
+ 
+
+00:03:00.000 --> 00:03:01.390 align:start position:0%
+would the code no longer work because
+you're<00:03:00.120><c> going</c><00:03:00.200><c> to</c><00:03:00.319><c> go</c><00:03:00.480><c> out</c><00:03:00.599><c> of</c><00:03:00.760><c> bounds</c><00:03:01.159><c> it's</c>
+
+00:03:01.390 --> 00:03:01.400 align:start position:0%
+you're going to go out of bounds it's
+ 
+
+00:03:01.400 --> 00:03:03.869 align:start position:0%
+you're going to go out of bounds it's
+pretty<00:03:01.680><c> simple</c><00:03:02.120><c> isn't</c><00:03:02.319><c> it</c><00:03:02.840><c> and</c><00:03:03.200><c> that's</c><00:03:03.440><c> what</c><00:03:03.799><c> a</c>
+
+00:03:03.869 --> 00:03:03.879 align:start position:0%
+pretty simple isn't it and that's what a
+ 
+
+00:03:03.879 --> 00:03:05.509 align:start position:0%
+pretty simple isn't it and that's what a
+lot<00:03:04.000><c> of</c><00:03:04.120><c> people</c><00:03:04.400><c> miss</c><00:03:04.799><c> a</c><00:03:04.879><c> lot</c><00:03:05.000><c> of</c><00:03:05.120><c> people</c><00:03:05.280><c> are</c>
+
+00:03:05.509 --> 00:03:05.519 align:start position:0%
+lot of people miss a lot of people are
+ 
+
+00:03:05.519 --> 00:03:07.630 align:start position:0%
+lot of people miss a lot of people are
+out<00:03:05.720><c> here</c><00:03:06.000><c> memorizing</c><00:03:06.680><c> code</c><00:03:07.239><c> and</c><00:03:07.360><c> they</c><00:03:07.519><c> can't</c>
+
+00:03:07.630 --> 00:03:07.640 align:start position:0%
+out here memorizing code and they can't
+ 
+
+00:03:07.640 --> 00:03:12.040 align:start position:0%
+out here memorizing code and they can't
+even<00:03:08.000><c> answer</c><00:03:08.560><c> basic</c><00:03:08.959><c> questions</c><00:03:09.400><c> like</c><00:03:09.599><c> that</c>
+

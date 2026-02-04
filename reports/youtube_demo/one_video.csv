@@ -1,0 +1,457 @@
+video_id,url,title,transcript,signal_level,noise_superclass,noise_subtype,primary_topic,actionability_1_5,takeaway_clarity_1_5,insight_depth_1_5,snr_score,short_reasoning,notes
+UrcwDOEBzZE,,Most Common Concepts for Coding Interviews,"Kind: captions
+Language: en
+coding interviews are hard so much so
+coding interviews are hard so much so
+coding interviews are hard so much so
+that there's nerds out there solving
+that there's nerds out there solving
+that there's nerds out there solving
+hundreds of leak code problems just to
+hundreds of leak code problems just to
+hundreds of leak code problems just to
+get ahead but is that really necessary
+get ahead but is that really necessary
+get ahead but is that really necessary
+do we really live in a world where you
+do we really live in a world where you
+do we really live in a world where you
+need to solve Cherry pickup a
+need to solve Cherry pickup a
+need to solve Cherry pickup a
+three-dimensional dynamic programming
+three-dimensional dynamic programming
+three-dimensional dynamic programming
+problem just to get a job I don't think
+problem just to get a job I don't think
+problem just to get a job I don't think
+so yes technically anything can come up
+so yes technically anything can come up
+so yes technically anything can come up
+in an interview but I think there's a
+in an interview but I think there's a
+in an interview but I think there's a
+smarter way to prepare why not
+smarter way to prepare why not
+smarter way to prepare why not
+prioritize the concepts that are easiest
+prioritize the concepts that are easiest
+prioritize the concepts that are easiest
+to learn but also are most likely to
+to learn but also are most likely to
+to learn but also are most likely to
+come up in interviews Well because most
+come up in interviews Well because most
+come up in interviews Well because most
+people don't know what those are but
+people don't know what those are but
+people don't know what those are but
+with my background I think I do arrays
+with my background I think I do arrays
+with my background I think I do arrays
+are the first data structure that we all
+are the first data structure that we all
+are the first data structure that we all
+learn about and that's because they're
+learn about and that's because they're
+learn about and that's because they're
+simple but there's surprisingly a lot of
+simple but there's surprisingly a lot of
+simple but there's surprisingly a lot of
+non-trivial algorithms relevant to
+non-trivial algorithms relevant to
+non-trivial algorithms relevant to
+arrays I'm not just talking about binary
+arrays I'm not just talking about binary
+arrays I'm not just talking about binary
+search and sorting but also two-pointers
+search and sorting but also two-pointers
+search and sorting but also two-pointers
+the sliding window and if we want to get
+the sliding window and if we want to get
+the sliding window and if we want to get
+fancy we can even do some pre-processing
+fancy we can even do some pre-processing
+fancy we can even do some pre-processing
+by Computing the prefix sums of an array
+by Computing the prefix sums of an array
+by Computing the prefix sums of an array
+to solve certain problems more
+to solve certain problems more
+to solve certain problems more
+efficiently and the good thing is most
+efficiently and the good thing is most
+efficiently and the good thing is most
+of these algorithms are actually not
+of these algorithms are actually not
+of these algorithms are actually not
+very complicated once you understand
+very complicated once you understand
+very complicated once you understand
+them but if I were you I wouldn't just
+them but if I were you I wouldn't just
+them but if I were you I wouldn't just
+understand them I would get so good at
+understand them I would get so good at
+understand them I would get so good at
+them that solving a simple binary search
+them that solving a simple binary search
+them that solving a simple binary search
+or a sliding window problem feels as
+or a sliding window problem feels as
+or a sliding window problem feels as
+easy as writing a for Loop even if that
+easy as writing a for Loop even if that
+easy as writing a for Loop even if that
+means you have to go back and resolve
+means you have to go back and resolve
+means you have to go back and resolve
+the same easy problem multiple times a
+the same easy problem multiple times a
+the same easy problem multiple times a
+lot of people will struggle with more
+lot of people will struggle with more
+lot of people will struggle with more
+ult problems and that's because they
+ult problems and that's because they
+ult problems and that's because they
+don't have a really really good grasp of
+don't have a really really good grasp of
+don't have a really really good grasp of
+the basics and actually arrays are so
+the basics and actually arrays are so
+the basics and actually arrays are so
+all-encompassing that many other
+all-encompassing that many other
+all-encompassing that many other
+patterns can also be applied to them
+patterns can also be applied to them
+patterns can also be applied to them
+like Stacks greedy algorithms and of
+like Stacks greedy algorithms and of
+like Stacks greedy algorithms and of
+course everyone's favorite dynamic
+course everyone's favorite dynamic
+course everyone's favorite dynamic
+programming another broad concept is
+programming another broad concept is
+programming another broad concept is
+recursive decision trees you might be
+recursive decision trees you might be
+recursive decision trees you might be
+thinking doesn't the specific pattern
+thinking doesn't the specific pattern
+thinking doesn't the specific pattern
+actually matter like recursion can be
+actually matter like recursion can be
+actually matter like recursion can be
+applied to trees it can be applied to
+applied to trees it can be applied to
+applied to trees it can be applied to
+backtracking well yes no one is born
+backtracking well yes no one is born
+backtracking well yes no one is born
+knowing those Concepts you'll have to
+knowing those Concepts you'll have to
+knowing those Concepts you'll have to
+learn them but if you have a very strong
+learn them but if you have a very strong
+learn them but if you have a very strong
+fundamental understanding of decision
+fundamental understanding of decision
+fundamental understanding of decision
+trees you can solve a wide variety of
+trees you can solve a wide variety of
+trees you can solve a wide variety of
+problems from binary trees backtracking
+problems from binary trees backtracking
+problems from binary trees backtracking
+problems combinatorics dynamic
+problems combinatorics dynamic
+problems combinatorics dynamic
+programming and sometimes even graph
+programming and sometimes even graph
+programming and sometimes even graph
+problems if you've gone through the N
+problems if you've gone through the N
+problems if you've gone through the N
+code 150 list or road map and watched my
+code 150 list or road map and watched my
+code 150 list or road map and watched my
+videos you've probably got tired of me
+videos you've probably got tired of me
+videos you've probably got tired of me
+talking about decision trees decision
+talking about decision trees decision
+talking about decision trees decision
+tree decision tree decision tree so we
+tree decision tree decision tree so we
+tree decision tree decision tree so we
+have but that's because there are such
+have but that's because there are such
+have but that's because there are such
+an easy way for us humans to understand
+an easy way for us humans to understand
+an easy way for us humans to understand
+the intuition of complex algorithms
+the intuition of complex algorithms
+the intuition of complex algorithms
+graphs are a massive topic it's
+graphs are a massive topic it's
+graphs are a massive topic it's
+literally a sub branch of mathematics
+literally a sub branch of mathematics
+literally a sub branch of mathematics
+that's why some of the craziest problems
+that's why some of the craziest problems
+that's why some of the craziest problems
+you might have seen are graph problems
+you might have seen are graph problems
+you might have seen are graph problems
+but at the heart of graph problems are
+but at the heart of graph problems are
+but at the heart of graph problems are
+two relatively simple algorithms DFS and
+two relatively simple algorithms DFS and
+two relatively simple algorithms DFS and
+BFS you probably first learned about
+BFS you probably first learned about
+BFS you probably first learned about
+these algorithms with binary trees
+these algorithms with binary trees
+these algorithms with binary trees
+because trees are just a special type of
+because trees are just a special type of
+because trees are just a special type of
+graph but I really can't overstate how
+graph but I really can't overstate how
+graph but I really can't overstate how
+important these two algorithms are you
+important these two algorithms are you
+important these two algorithms are you
+should definitely be able to apply these
+should definitely be able to apply these
+should definitely be able to apply these
+two on both Matrix graphs as well as
+two on both Matrix graphs as well as
+two on both Matrix graphs as well as
+adjacency lists because even though you
+adjacency lists because even though you
+adjacency lists because even though you
+may be implementing the same algorithm
+may be implementing the same algorithm
+may be implementing the same algorithm
+depending on the structure of the graph
+depending on the structure of the graph
+depending on the structure of the graph
+the code can be quite different but
+the code can be quite different but
+the code can be quite different but
+again don't just get surface level
+again don't just get surface level
+again don't just get surface level
+knowledge I would recommend you to
+knowledge I would recommend you to
+knowledge I would recommend you to
+really understand them like you should
+really understand them like you should
+really understand them like you should
+be able to tell me what would go wrong
+be able to tell me what would go wrong
+be able to tell me what would go wrong
+if I removed any of these lines of code
+if I removed any of these lines of code
+if I removed any of these lines of code
+without this we might get an index out
+without this we might get an index out
+without this we might get an index out
+of bounds error without this one we
+of bounds error without this one we
+of bounds error without this one we
+might get stuck in an infinite Loop
+might get stuck in an infinite Loop
+might get stuck in an infinite Loop
+without this one we might overcount the
+without this one we might overcount the
+without this one we might overcount the
+solution I know some people will say who
+solution I know some people will say who
+solution I know some people will say who
+cares this sucks it's not relevant to my
+cares this sucks it's not relevant to my
+cares this sucks it's not relevant to my
+job anyway and that's a fair point but I
+job anyway and that's a fair point but I
+job anyway and that's a fair point but I
+don't think it's bad to be able to
+don't think it's bad to be able to
+don't think it's bad to be able to
+deeply understand a pretty fundamental
+deeply understand a pretty fundamental
+deeply understand a pretty fundamental
+algorithm like depth first search The
+algorithm like depth first search The
+algorithm like depth first search The
+Forbidden Jutsu of the algorithm's world
+Forbidden Jutsu of the algorithm's world
+Forbidden Jutsu of the algorithm's world
+is definitely the hashmap whether you're
+is definitely the hashmap whether you're
+is definitely the hashmap whether you're
+using it to count the occurrences of
+using it to count the occurrences of
+using it to count the occurrences of
+characters in a string or using it to
+characters in a string or using it to
+characters in a string or using it to
+build an adjacency list for graph
+build an adjacency list for graph
+build an adjacency list for graph
+problems it's almost certainly going to
+problems it's almost certainly going to
+problems it's almost certainly going to
+be useful in your interviews there's not
+be useful in your interviews there's not
+be useful in your interviews there's not
+much to talk about because thankfully
+much to talk about because thankfully
+much to talk about because thankfully
+hashmaps are pretty easy to use but if
+hashmaps are pretty easy to use but if
+hashmaps are pretty easy to use but if
+you're struggling to optimize your
+you're struggling to optimize your
+you're struggling to optimize your
+solution the first question you should
+solution the first question you should
+solution the first question you should
+ask yourself is would a hashmap be
+ask yourself is would a hashmap be
+ask yourself is would a hashmap be
+helpful here heaps are also pretty
+helpful here heaps are also pretty
+helpful here heaps are also pretty
+simple they have a sorted property
+simple they have a sorted property
+simple they have a sorted property
+either as a minimum Heap or a maximum
+either as a minimum Heap or a maximum
+either as a minimum Heap or a maximum
+Heap they support log and time
+Heap they support log and time
+Heap they support log and time
+insertions log and time removals of
+insertions log and time removals of
+insertions log and time removals of
+either the minimum or the maximum
+either the minimum or the maximum
+either the minimum or the maximum
+element constant lookup time and lastly
+element constant lookup time and lastly
+element constant lookup time and lastly
+heapify can transform a set of values
+heapify can transform a set of values
+heapify can transform a set of values
+into a heap in O of n time that's
+into a heap in O of n time that's
+into a heap in O of n time that's
+relevant because it's more efficient
+relevant because it's more efficient
+relevant because it's more efficient
+than inserting elements one by one if
+than inserting elements one by one if
+than inserting elements one by one if
+you're given all the elements up front
+you're given all the elements up front
+you're given all the elements up front
+we can't end this video without talking
+we can't end this video without talking
+we can't end this video without talking
+about dynamic programming we all know
+about dynamic programming we all know
+about dynamic programming we all know
+that it's difficult to learn but it's
+that it's difficult to learn but it's
+that it's difficult to learn but it's
+not as common as people think it is I
+not as common as people think it is I
+not as common as people think it is I
+would definitely prioritize it after all
+would definitely prioritize it after all
+would definitely prioritize it after all
+of the other Concepts I've talked about
+of the other Concepts I've talked about
+of the other Concepts I've talked about
+in this video but if you are going to
+in this video but if you are going to
+in this video but if you are going to
+learn it I would mainly focus on the
+learn it I would mainly focus on the
+learn it I would mainly focus on the
+most common and famous dynamic
+most common and famous dynamic
+most common and famous dynamic
+programming problems like the longest
+programming problems like the longest
+programming problems like the longest
+common subsequence problem the coin
+common subsequence problem the coin
+common subsequence problem the coin
+change problem and several others that
+change problem and several others that
+change problem and several others that
+are included in the neat code 150 list
+are included in the neat code 150 list
+are included in the neat code 150 list
+yeah it's theoretically possible you'll
+yeah it's theoretically possible you'll
+yeah it's theoretically possible you'll
+get asked a question like Cherry pickup
+get asked a question like Cherry pickup
+get asked a question like Cherry pickup
+2 yeah Cherry pickup 2 because the first
+2 yeah Cherry pickup 2 because the first
+2 yeah Cherry pickup 2 because the first
+one wasn't hard enough but let's be
+one wasn't hard enough but let's be
+one wasn't hard enough but let's be
+honest even if you've literally solved
+honest even if you've literally solved
+honest even if you've literally solved
+this problem before there's still a high
+this problem before there's still a high
+this problem before there's still a high
+chance you won't be able to solve this
+chance you won't be able to solve this
+chance you won't be able to solve this
+in a real interview but that's all I
+in a real interview but that's all I
+in a real interview but that's all I
+really wanted to talk about I see a lot
+really wanted to talk about I see a lot
+really wanted to talk about I see a lot
+of people nowadays solving hundreds and
+of people nowadays solving hundreds and
+of people nowadays solving hundreds and
+hundreds of problems and there's nothing
+hundreds of problems and there's nothing
+hundreds of problems and there's nothing
+wrong with that but if your goal is just
+wrong with that but if your goal is just
+wrong with that but if your goal is just
+to prepare for interviews and maximize
+to prepare for interviews and maximize
+to prepare for interviews and maximize
+your chances with the least amount of
+your chances with the least amount of
+your chances with the least amount of
+effort possible like doing a reasonable
+effort possible like doing a reasonable
+effort possible like doing a reasonable
+amount of preparation I would highly
+amount of preparation I would highly
+amount of preparation I would highly
+recommend focusing on the most important
+recommend focusing on the most important
+recommend focusing on the most important
+Concepts that I talked about",,,,,,,,,,

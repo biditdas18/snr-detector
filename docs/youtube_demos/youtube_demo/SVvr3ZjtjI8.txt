@@ -1,0 +1,576 @@
+Kind: captions
+Language: en
+hey guys it's me again and today i want
+hey guys it's me again and today i want
+hey guys it's me again and today i want
+to talk a little about how
+to talk a little about how
+to talk a little about how
+i got good at my coding interviews when
+i got good at my coding interviews when
+i got good at my coding interviews when
+i was preparing for them
+i was preparing for them
+i was preparing for them
+and how you can prepare for yours as
+and how you can prepare for yours as
+and how you can prepare for yours as
+well and
+well and
+well and
+i know a lot of people on this channel
+i know a lot of people on this channel
+i know a lot of people on this channel
+probably think that i'm a genius
+probably think that i'm a genius
+probably think that i'm a genius
+from the solution videos but i'm going
+from the solution videos but i'm going
+from the solution videos but i'm going
+to show you i'm not a genius
+to show you i'm not a genius
+to show you i'm not a genius
+and you really don't have to be a genius
+and you really don't have to be a genius
+and you really don't have to be a genius
+either now of course we all know that
+either now of course we all know that
+either now of course we all know that
+coding interviews today center a lot on
+coding interviews today center a lot on
+coding interviews today center a lot on
+algorithms so i'm going to be talking
+algorithms so i'm going to be talking
+algorithms so i'm going to be talking
+somewhat about that but there's also
+somewhat about that but there's also
+somewhat about that but there's also
+some clever stuff you can do
+some clever stuff you can do
+some clever stuff you can do
+to prepare what i like to call cheat
+to prepare what i like to call cheat
+to prepare what i like to call cheat
+codes
+codes
+codes
+and i'll touch upon that as well first
+and i'll touch upon that as well first
+and i'll touch upon that as well first
+let me give you a quick
+let me give you a quick
+let me give you a quick
+history lesson about a list of 75 leak
+history lesson about a list of 75 leak
+history lesson about a list of 75 leak
+code questions
+code questions
+code questions
+so there was a facebook tech lead a
+so there was a facebook tech lead a
+so there was a facebook tech lead a
+couple years ago
+couple years ago
+couple years ago
+who compiled this 75 list of questions
+who compiled this 75 list of questions
+who compiled this 75 list of questions
+from apparently a couple hundred or
+from apparently a couple hundred or
+from apparently a couple hundred or
+something that they were looking at
+something that they were looking at
+something that they were looking at
+and they found that these 75 questions
+and they found that these 75 questions
+and they found that these 75 questions
+were the most helpful
+were the most helpful
+were the most helpful
+they were the most comprehensive they
+they were the most comprehensive they
+they were the most comprehensive they
+covered
+covered
+covered
+the most amount of patterns that you
+the most amount of patterns that you
+the most amount of patterns that you
+needed to know
+needed to know
+needed to know
+for a coding interview and this list
+for a coding interview and this list
+for a coding interview and this list
+has become very infamous in the software
+has become very infamous in the software
+has become very infamous in the software
+engineering community and on online
+engineering community and on online
+engineering community and on online
+forums
+forums
+forums
+like if you go on reddit and you know
+like if you go on reddit and you know
+like if you go on reddit and you know
+you'll see this list mentioned a lot
+you'll see this list mentioned a lot
+you'll see this list mentioned a lot
+like you'll see it mentioned in reddit
+like you'll see it mentioned in reddit
+like you'll see it mentioned in reddit
+you'll see it mentioned
+you'll see it mentioned
+you'll see it mentioned
+on blind a lot you'll see it mentioned
+on blind a lot you'll see it mentioned
+on blind a lot you'll see it mentioned
+when people ask about
+when people ask about
+when people ask about
+which problems should i study and even
+which problems should i study and even
+which problems should i study and even
+this list of 170 questions that i posted
+this list of 170 questions that i posted
+this list of 170 questions that i posted
+in a previous video is actually
+in a previous video is actually
+in a previous video is actually
+based upon this blind post
+based upon this blind post
+based upon this blind post
+a lot of things have been created from
+a lot of things have been created from
+a lot of things have been created from
+this one post
+this one post
+this one post
+if you go on leap code there's a
+if you go on leap code there's a
+if you go on leap code there's a
+dedicated list to these 75
+dedicated list to these 75
+dedicated list to these 75
+questions and over 12 000 people have
+questions and over 12 000 people have
+questions and over 12 000 people have
+viewed it so you know that there's
+viewed it so you know that there's
+viewed it so you know that there's
+something good about these problems
+something good about these problems
+something good about these problems
+so that sounds easy enough right 75
+so that sounds easy enough right 75
+so that sounds easy enough right 75
+questions
+questions
+questions
+that's it these are really good problems
+that's it these are really good problems
+that's it these are really good problems
+they have everything you need
+they have everything you need
+they have everything you need
+just solve all of them right so of
+just solve all of them right so of
+just solve all of them right so of
+course
+course
+course
+it's not that easy right some of these
+it's not that easy right some of these
+it's not that easy right some of these
+problems are
+problems are
+problems are
+extremely difficult word search 2
+extremely difficult word search 2
+extremely difficult word search 2
+is just one example try solving this
+is just one example try solving this
+is just one example try solving this
+problem on your first
+problem on your first
+problem on your first
+try in 30 minutes without having seen
+try in 30 minutes without having seen
+try in 30 minutes without having seen
+the solution before
+the solution before
+the solution before
+very few people can i like to call this
+very few people can i like to call this
+very few people can i like to call this
+a crackhead problem because if you can
+a crackhead problem because if you can
+a crackhead problem because if you can
+solve this problem in 30 minutes
+solve this problem in 30 minutes
+solve this problem in 30 minutes
+in an interview while explaining your
+in an interview while explaining your
+in an interview while explaining your
+solution
+solution
+solution
+creating a bug-free solution without
+creating a bug-free solution without
+creating a bug-free solution without
+having seen this problem before
+having seen this problem before
+having seen this problem before
+you must be doing some crack or
+you must be doing some crack or
+you must be doing some crack or
+something else
+something else
+something else
+to be doing that there's just no way
+to be doing that there's just no way
+to be doing that there's just no way
+that you could do that
+that you could do that
+that you could do that
+so that's the problem right there's only
+so that's the problem right there's only
+so that's the problem right there's only
+75 questions but some of them are
+75 questions but some of them are
+75 questions but some of them are
+extremely difficult
+extremely difficult
+extremely difficult
+so then the next thing people do they go
+so then the next thing people do they go
+so then the next thing people do they go
+to the discuss section
+to the discuss section
+to the discuss section
+this person is really smart they made a
+this person is really smart they made a
+this person is really smart they made a
+really good post about it
+really good post about it
+really good post about it
+they tell you all these little details
+they tell you all these little details
+they tell you all these little details
+about it right now you can
+about it right now you can
+about it right now you can
+take a look at this and try to learn
+take a look at this and try to learn
+take a look at this and try to learn
+from it right but some people are just
+from it right but some people are just
+from it right but some people are just
+going to go straight to the code
+going to go straight to the code
+going to go straight to the code
+try to memorize every semicolon every
+try to memorize every semicolon every
+try to memorize every semicolon every
+little detail about the problem
+little detail about the problem
+little detail about the problem
+there's just no way you can do that at
+there's just no way you can do that at
+there's just no way you can do that at
+least i wasn't able to so i took a
+least i wasn't able to so i took a
+least i wasn't able to so i took a
+slightly different approach
+slightly different approach
+slightly different approach
+i did solve these 75 questions
+i did solve these 75 questions
+i did solve these 75 questions
+i did not try to memorize every line of
+i did not try to memorize every line of
+i did not try to memorize every line of
+code in every detail
+code in every detail
+code in every detail
+this is the workaround that i found
+this is the workaround that i found
+this is the workaround that i found
+instead of memorizing
+instead of memorizing
+instead of memorizing
+code how about i memorize the patterns
+code how about i memorize the patterns
+code how about i memorize the patterns
+right so to sum
+right so to sum
+right so to sum
+you use a hash map you keep track of an
+you use a hash map you keep track of an
+you use a hash map you keep track of an
+index something like that right
+index something like that right
+index something like that right
+no code this is english right and i
+no code this is english right and i
+no code this is english right and i
+didn't even write
+didn't even write
+didn't even write
+that much i just wrote one or two
+that much i just wrote one or two
+that much i just wrote one or two
+sentences
+sentences
+sentences
+for word search two you can take a look
+for word search two you can take a look
+for word search two you can take a look
+at some of the notes that i wrote i
+at some of the notes that i wrote i
+at some of the notes that i wrote i
+don't think it'll be helpful for you
+don't think it'll be helpful for you
+don't think it'll be helpful for you
+it's probably not even helpful for me
+it's probably not even helpful for me
+it's probably not even helpful for me
+because i don't even remember what i
+because i don't even remember what i
+because i don't even remember what i
+wrote so and i'm sure you guys probably
+wrote so and i'm sure you guys probably
+wrote so and i'm sure you guys probably
+have similar experiences when you go
+have similar experiences when you go
+have similar experiences when you go
+back to review some of your notes
+back to review some of your notes
+back to review some of your notes
+but that's like the idea right don't
+but that's like the idea right don't
+but that's like the idea right don't
+memorize
+memorize
+memorize
+30 lines of code you know where if you
+30 lines of code you know where if you
+30 lines of code you know where if you
+forget a single semicolon you're screwed
+forget a single semicolon you're screwed
+forget a single semicolon you're screwed
+try memorizing one or two sentences one
+try memorizing one or two sentences one
+try memorizing one or two sentences one
+or two patterns
+or two patterns
+or two patterns
+you know for word search two
+you know for word search two
+you know for word search two
+you can see that i i said oh there's
+you can see that i i said oh there's
+you can see that i i said oh there's
+there's a little trick to this problem
+there's a little trick to this problem
+there's a little trick to this problem
+there's a really clever trick that you
+there's a really clever trick that you
+there's a really clever trick that you
+can just memorize
+can just memorize
+can just memorize
+and you can see that i did similar
+and you can see that i did similar
+and you can see that i did similar
+things as well
+things as well
+things as well
+as i mentioned in previous videos right
+as i mentioned in previous videos right
+as i mentioned in previous videos right
+grouping
+grouping
+grouping
+similar problems together array
+similar problems together array
+similar problems together array
+questions together
+questions together
+questions together
+dynamic programming questions together
+dynamic programming questions together
+dynamic programming questions together
+you'll notice
+you'll notice
+you'll notice
+that dynamic probing programming
+that dynamic probing programming
+that dynamic probing programming
+questions
+questions
+questions
+use a lot of the same patterns a lot of
+use a lot of the same patterns a lot of
+use a lot of the same patterns a lot of
+the same algorithms
+the same algorithms
+the same algorithms
+you know go to tree questions they're
+you know go to tree questions they're
+you know go to tree questions they're
+actually not as different as you think
+actually not as different as you think
+actually not as different as you think
+look at this recursive depth first
+look at this recursive depth first
+look at this recursive depth first
+search recursive first search recursive
+search recursive first search recursive
+search recursive first search recursive
+depth first search
+depth first search
+depth first search
+right that's what i mean by hey some of
+right that's what i mean by hey some of
+right that's what i mean by hey some of
+these problems are actually
+these problems are actually
+these problems are actually
+really similar to each other now the
+really similar to each other now the
+really similar to each other now the
+last thing i'm going to show you
+last thing i'm going to show you
+last thing i'm going to show you
+if all else fails go to leak code
+if all else fails go to leak code
+if all else fails go to leak code
+discuss section and go to the interview
+discuss section and go to the interview
+discuss section and go to the interview
+section the interview questions section
+section the interview questions section
+section the interview questions section
+and
+and
+and
+supposedly people share which interviews
+supposedly people share which interviews
+supposedly people share which interviews
+like what interview questions they got
+like what interview questions they got
+like what interview questions they got
+at which company somebody posted
+at which company somebody posted
+at which company somebody posted
+what they got in a walmart online
+what they got in a walmart online
+what they got in a walmart online
+assessment
+assessment
+assessment
+uh don't tell anybody i sent you here
+uh don't tell anybody i sent you here
+uh don't tell anybody i sent you here
+and i can't really confirm
+and i can't really confirm
+and i can't really confirm
+how accurate these are because it is
+how accurate these are because it is
+how accurate these are because it is
+user generated like
+user generated like
+user generated like
+and of course some of it might be
+and of course some of it might be
+and of course some of it might be
+outdated like you can see this is 2019
+outdated like you can see this is 2019
+outdated like you can see this is 2019
+2019 but you know
+2019 but you know
+2019 but you know
+it's at least a resource that i think a
+it's at least a resource that i think a
+it's at least a resource that i think a
+lot of people don't know about
+lot of people don't know about
+lot of people don't know about
+at the very least you might know that
+at the very least you might know that
+at the very least you might know that
+hey
+hey
+hey
+maybe this company focuses on
+maybe this company focuses on
+maybe this company focuses on
+certain data structures like if you go
+certain data structures like if you go
+certain data structures like if you go
+here
+here
+here
+microsoft online assessment like this is
+microsoft online assessment like this is
+microsoft online assessment like this is
+the long list of
+the long list of
+the long list of
+questions so it might not even be
+questions so it might not even be
+questions so it might not even be
+helpful for you because if there's like
+helpful for you because if there's like
+helpful for you because if there's like
+you know like if there's a thousand
+you know like if there's a thousand
+you know like if there's a thousand
+questions that they ask knowing
+questions that they ask knowing
+questions that they ask knowing
+that list might not be helpful but it's
+that list might not be helpful but it's
+that list might not be helpful but it's
+at the very least a resource that i
+at the very least a resource that i
+at the very least a resource that i
+think
+think
+think
+you might not have known about so those
+you might not have known about so those
+you might not have known about so those
+are the main things that i want to talk
+are the main things that i want to talk
+are the main things that i want to talk
+about unless i'm forgetting something
+about unless i'm forgetting something
+about unless i'm forgetting something
+but if this was helpful please like and
+but if this was helpful please like and
+but if this was helpful please like and
+subscribe
+subscribe
+subscribe
+thanks for watching leave any feedback
+thanks for watching leave any feedback
+thanks for watching leave any feedback
+that you'd want i might make more like
+that you'd want i might make more like
+that you'd want i might make more like
+leak code solution
+leak code solution
+leak code solution
+videos i might focus on other things i'm
+videos i might focus on other things i'm
+videos i might focus on other things i'm
+not really sure right now
+not really sure right now
+not really sure right now
+who knows um and
+who knows um and
+who knows um and
+yeah thanks for watching

@@ -1,0 +1,276 @@
+Kind: captions
+Language: en
+but if I were you I wouldn't just
+but if I were you I wouldn't just
+but if I were you I wouldn't just
+understand them I would get so good at
+understand them I would get so good at
+understand them I would get so good at
+them that solving a simple binary search
+them that solving a simple binary search
+them that solving a simple binary search
+or a sliding window problem feels as
+or a sliding window problem feels as
+or a sliding window problem feels as
+easy as writing a for Loop have you guys
+easy as writing a for Loop have you guys
+easy as writing a for Loop have you guys
+gotten to the point where you can
+gotten to the point where you can
+gotten to the point where you can
+Implement some of the more like trivial
+Implement some of the more like trivial
+Implement some of the more like trivial
+algorithms that quickly because once you
+algorithms that quickly because once you
+algorithms that quickly because once you
+do it kind of opens up your mind to like
+do it kind of opens up your mind to like
+do it kind of opens up your mind to like
+a level of like Enlightenment when
+a level of like Enlightenment when
+a level of like Enlightenment when
+you're first learning how to code
+you're first learning how to code
+you're first learning how to code
+writing out for loops and things like
+writing out for loops and things like
+writing out for loops and things like
+that takes like cognitive energy it's
+that takes like cognitive energy it's
+that takes like cognitive energy it's
+not second nature like writing out
+not second nature like writing out
+not second nature like writing out
+variable names especially when you're
+variable names especially when you're
+variable names especially when you're
+learning a new language for the first
+learning a new language for the first
+learning a new language for the first
+time it it's like there's friction in
+time it it's like there's friction in
+time it it's like there's friction in
+just like getting your thoughts into
+just like getting your thoughts into
+just like getting your thoughts into
+code but when you get to the next level
+code but when you get to the next level
+code but when you get to the next level
+like you can write out binary search or
+like you can write out binary search or
+like you can write out binary search or
+a basic sliding window or even a depth
+a basic sliding window or even a depth
+a basic sliding window or even a depth
+first search algorithm very very quickly
+first search algorithm very very quickly
+first search algorithm very very quickly
+that takes zero effort and that's when
+that takes zero effort and that's when
+that takes zero effort and that's when
+you can kind of start focusing on the
+you can kind of start focusing on the
+you can kind of start focusing on the
+more complicated stuff you can focus on
+more complicated stuff you can focus on
+more complicated stuff you can focus on
+like how are you branching your
+like how are you branching your
+like how are you branching your
+recursion how are you creating the
+recursion how are you creating the
+recursion how are you creating the
+branch how like what is the condition
+branch how like what is the condition
+branch how like what is the condition
+for shrinking the the sliding window and
+for shrinking the the sliding window and
+for shrinking the the sliding window and
+increasing the sliding window and things
+increasing the sliding window and things
+increasing the sliding window and things
+like that and people skip a step people
+like that and people skip a step people
+like that and people skip a step people
+don't get good at the basics they just
+don't get good at the basics they just
+don't get good at the basics they just
+try to go to the harder stuff like why
+try to go to the harder stuff like why
+try to go to the harder stuff like why
+not just solve a really really simple
+not just solve a really really simple
+not just solve a really really simple
+binary search or sliding window problem
+binary search or sliding window problem
+binary search or sliding window problem
+five times why not do it because it's
+five times why not do it because it's
+five times why not do it because it's
+not going to take you very long if you
+not going to take you very long if you
+not going to take you very long if you
+solve it the first time in 15 20 minutes
+solve it the first time in 15 20 minutes
+solve it the first time in 15 20 minutes
+solve it again the next day it'll
+solve it again the next day it'll
+solve it again the next day it'll
+probably take you 10 minutes solve it
+probably take you 10 minutes solve it
+probably take you 10 minutes solve it
+again the next day it'll probably take
+again the next day it'll probably take
+again the next day it'll probably take
+you like 5 minutes and you'll get so
+you like 5 minutes and you'll get so
+you like 5 minutes and you'll get so
+good you'll be able to solve it in like
+good you'll be able to solve it in like
+good you'll be able to solve it in like
+2 minutes and you're probably thinking
+2 minutes and you're probably thinking
+2 minutes and you're probably thinking
+well I don't want to memorize the
+well I don't want to memorize the
+well I don't want to memorize the
+solution I don't want to be that type of
+solution I don't want to be that type of
+solution I don't want to be that type of
+person where I just memorize it there's
+person where I just memorize it there's
+person where I just memorize it there's
+an element of memorization in every type
+an element of memorization in every type
+an element of memorization in every type
+of learning but of course you should be
+of learning but of course you should be
+of learning but of course you should be
+able to understand every single line of
+able to understand every single line of
+able to understand every single line of
+code that's written here in this binary
+code that's written here in this binary
+code that's written here in this binary
+search and it's not hard to do yeah it's
+search and it's not hard to do yeah it's
+search and it's not hard to do yeah it's
+it's not about like memorizing it like
+it's not about like memorizing it like
+it's not about like memorizing it like
+your brain works like that like your
+your brain works like that like your
+your brain works like that like your
+brain will like your brain memorizes the
+brain will like your brain memorizes the
+brain will like your brain memorizes the
+location of like the keys on your
+location of like the keys on your
+location of like the keys on your
+keyboard that's why you're able to type
+keyboard that's why you're able to type
+keyboard that's why you're able to type
+it out quickly you don't really have to
+it out quickly you don't really have to
+it out quickly you don't really have to
+think about where's like the a key and
+think about where's like the a key and
+think about where's like the a key and
+and that's kind of what you want to get
+and that's kind of what you want to get
+and that's kind of what you want to get
+to when you're solving basic leak code
+to when you're solving basic leak code
+to when you're solving basic leak code
+problems and when you can do that then
+problems and when you can do that then
+problems and when you can do that then
+that's when you get to like the next
+that's when you get to like the next
+that's when you get to like the next
+layer of Enlightenment when it comes to
+layer of Enlightenment when it comes to
+layer of Enlightenment when it comes to
+lead code that's when you don't even
+lead code that's when you don't even
+lead code that's when you don't even
+think about the code anymore you're just
+think about the code anymore you're just
+think about the code anymore you're just
+focusing on the problem once you know
+focusing on the problem once you know
+focusing on the problem once you know
+how to solve a problem the code just
+how to solve a problem the code just
+how to solve a problem the code just
+writes itself and that's what you want
+writes itself and that's what you want
+writes itself and that's what you want
+to get to like you should be able to
+to get to like you should be able to
+to get to like you should be able to
+tell me what would go wrong if I removed
+tell me what would go wrong if I removed
+tell me what would go wrong if I removed
+any of these lines of code without can
+any of these lines of code without can
+any of these lines of code without can
+you guys tell me what's going to go
+you guys tell me what's going to go
+you guys tell me what's going to go
+wrong if we don't check if the row or
+wrong if we don't check if the row or
+wrong if we don't check if the row or
+column is out of bounds yeah out of
+column is out of bounds yeah out of
+column is out of bounds yeah out of
+bounds eror right that's the type of
+bounds eror right that's the type of
+bounds eror right that's the type of
+thing that I do when I was interviewing
+thing that I do when I was interviewing
+thing that I do when I was interviewing
+people you can write out the code cool
+people you can write out the code cool
+people you can write out the code cool
+you write be you can write a DFS
+you write be you can write a DFS
+you write be you can write a DFS
+algorithm good for you but if you can't
+algorithm good for you but if you can't
+algorithm good for you but if you can't
+tell me what's going to go wrong if I
+tell me what's going to go wrong if I
+tell me what's going to go wrong if I
+took these two lines of code out then
+took these two lines of code out then
+took these two lines of code out then
+you really don't understand it and I
+you really don't understand it and I
+you really don't understand it and I
+think that's fair it's not like I'm
+think that's fair it's not like I'm
+think that's fair it's not like I'm
+picking on people if I'm asking you if
+picking on people if I'm asking you if
+picking on people if I'm asking you if
+you remove these two lines of code why
+you remove these two lines of code why
+you remove these two lines of code why
+would the code no longer work because
+would the code no longer work because
+would the code no longer work because
+you're going to go out of bounds it's
+you're going to go out of bounds it's
+you're going to go out of bounds it's
+pretty simple isn't it and that's what a
+pretty simple isn't it and that's what a
+pretty simple isn't it and that's what a
+lot of people miss a lot of people are
+lot of people miss a lot of people are
+lot of people miss a lot of people are
+out here memorizing code and they can't
+out here memorizing code and they can't
+out here memorizing code and they can't
+even answer basic questions like that
