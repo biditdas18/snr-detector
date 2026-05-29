@@ -147,18 +147,29 @@ python scripts/score_youtube.py --url "https://youtube.com/watch?v=VIDEO_ID"
 
 ---
 
+## Why LLM Annotation Instead of Human Annotation
+
+Human annotation of educational content quality carries two unavoidable failure modes:
+
+**Creator bias** — A viewer who associates a channel with promotional or fear-based content applies that reputation to every transcript, regardless of what the content actually says. Labels reflect creator identity, not content quality.
+
+**Domain bias** — A software engineer rates lifestyle advice as inherently noisy. A viewer invested in immigration content rates general geopolitics as low signal. Annotation quality becomes bounded by the annotator's subject matter preferences — unacceptable for a cross-domain framework.
+
+LLM ensemble annotation eliminates both. Language models apply the rubric without creator recognition or domain preference, producing labels that reflect content structure rather than annotator identity. This also means labels are legally clean — assigned to transcript content by rubric criteria, not to creators by name or reputation.
+
+---
+
 ## Deployment Vision
 
-This framework is designed for two deployment scenarios:
+This framework is designed for two fundamentally different deployment modes with distinct bias profiles:
 
-**Platform-scale filtering:** The binary classifier's low inference cost
-(milliseconds on CPU, no API required) enables integration with recommendation
-pipelines. Existing "was this helpful" user signals can be mapped to SNR labels
-for continuous model improvement at platform scale.
+**Personal deployment — bias is a feature.**
+A personal SNR tool learns from your feedback. Your domain preferences and creator associations are valid personal signal. The tool warns you about content that matches your historical noise patterns and surfaces content aligned with your definition of educational value. Human bias is intentionally preserved and personalized.
 
-**Personalized quality learning:** A user-facing tool collects binary helpfulness
-feedback and periodically fine-tunes a personal SNR model. Population Stability
-Index monitoring detects preference drift and triggers model refresh.
+**Platform deployment — bias must be eliminated.**
+A recommendation filter must generalize across millions of viewers with different domain preferences and creator associations. LLM ensemble annotation — and eventually majority consensus from large-scale user feedback — washes out individual bias. Platform labels reflect population-level signal quality. YouTube's existing "was this helpful" prompt is an untapped training signal for this mode.
+
+The two-mode architecture separates the bias question cleanly: personal tools embrace it, platform tools eliminate it.
 
 ---
 
