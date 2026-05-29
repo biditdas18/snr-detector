@@ -1,20 +1,42 @@
 {
-  "Logistic Regression": {
-    "accuracy": 0.3333,
-    "f1": 0.2593,
-    "precision": 0.1667,
-    "recall": 0.5833
+  "Logistic Regression (balanced)": {
+    "default_threshold_0.5": {
+      "accuracy": 0.3333,
+      "f1": 0.2593,
+      "precision": 0.1667,
+      "recall": 0.5833
+    },
+    "optimal_threshold": 0.3367,
+    "optimal_threshold_metrics": {
+      "accuracy": 0.3167,
+      "f1": 0.3492,
+      "precision": 0.2157,
+      "recall": 0.9167
+    }
   },
   "SVM RBF": {
-    "accuracy": 0.3333,
-    "f1": 0.2857,
-    "precision": 0.1818,
-    "recall": 0.6667
+    "default_threshold_0.5": {
+      "accuracy": 0.3333,
+      "f1": 0.2857,
+      "precision": 0.1818,
+      "recall": 0.6667
+    },
+    "optimal_threshold": 0.1782,
+    "optimal_threshold_metrics": {
+      "accuracy": 0.2667,
+      "f1": 0.3333,
+      "precision": 0.2037,
+      "recall": 0.9167
+    }
   },
   "V1 Baseline (majority)": {
-    "accuracy": 0.8,
-    "f1": 0.0,
-    "precision": 0.0,
-    "recall": 0.0
+    "default_threshold_0.5": {
+      "accuracy": 0.8,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "optimal_threshold": "N/A",
+    "optimal_threshold_metrics": "N/A"
   }
 }
