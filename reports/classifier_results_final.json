@@ -1,0 +1,30 @@
+{
+  "LogisticRegression": {
+    "accuracy_default": 0.8333,
+    "f1_default": 0.8438,
+    "precision_default": 0.75,
+    "recall_default": 0.9643,
+    "f1_optimal": 0.8571,
+    "optimal_threshold": 0.55,
+    "accuracy_optimal": 0.85,
+    "precision_optimal": 0.7714,
+    "recall_optimal": 0.9643
+  },
+  "SVM_RBF": {
+    "accuracy_default": 0.7333,
+    "f1_default": 0.7778,
+    "precision_default": 0.6364,
+    "recall_default": 1.0,
+    "f1_optimal": 0.871,
+    "optimal_threshold": 0.5,
+    "accuracy_optimal": 0.8667,
+    "precision_optimal": 0.7941,
+    "recall_optimal": 0.9643
+  },
+  "Baseline_MajorityLOW": {
+    "accuracy_default": 0.5333,
+    "f1_default": 0.0,
+    "precision_default": 0.0,
+    "recall_default": 0.0
+  }
+}

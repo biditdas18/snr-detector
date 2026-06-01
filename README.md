@@ -4,62 +4,39 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> **Can we automatically detect whether a YouTube video is worth watching?**
+Binary classifier that detects whether a YouTube educational video
+transcript is HIGH or LOW signal — based on content quality, not
+engagement metrics.
 
-Educational content platforms optimize for engagement, not educational value.
-A fear-mongering video about job loss can outperform a methodologically rigorous
-tutorial on the same topic. SNR-Detect addresses this gap with a lightweight
-binary classifier that identifies **High Signal** educational content from video
-transcripts — no video watching required.
-
----
-
-## What Is SNR?
-
-Signal-to-Noise Ratio (SNR) is a framework for measuring information quality
-in educational video content. We define two classes:
-
-| Label | Description |
-|-------|-------------|
-| **HIGH Signal** | Concrete actionable steps, named frameworks, specific examples, methodological coherence, solution-oriented even when covering problems |
-| **LOW Signal** | Generic advice, fear-based framing, promotional content, repetition without progression, logical fallacies |
+**Best model:** SVM RBF — F1=0.871, Recall=0.964 on real YouTube transcripts.
 
 ---
 
 ## Results
 
-Trained on 300 synthetic transcripts, evaluated on 60 real YouTube transcripts
-labeled by LLM ensemble (GPT-4 + Gemini + Meta AI majority vote):
-
 | Model | Accuracy | F1 (HIGH) | Precision | Recall |
 |-------|----------|-----------|-----------|--------|
-| Majority Baseline | 0.800 | 0.000 | 0.000 | 0.000 |
-| Logistic Regression (thresh=0.337) | 0.317 | **0.349** | 0.216 | **0.917** |
-| SVM RBF (thresh=0.178) | 0.267 | 0.333 | 0.204 | 0.917 |
+| Baseline (majority LOW) | 0.533 | 0.000 | — | — |
+| Logistic Regression | 0.850 | 0.857 | 0.771 | 0.964 |
+| **SVM RBF** | **0.867** | **0.871** | **0.794** | **0.964** |
 
-**Key finding:** The classifier identifies 11 of 12 genuine HIGH signal
-transcripts (recall = 0.917). The majority-class baseline achieves 0.800
-accuracy by predicting everything as LOW — demonstrating why accuracy is the
-wrong metric for imbalanced content quality tasks.
-
-### Confusion Matrix
-
-![Confusion Matrix](assets/confusion_matrix.png)
+Train: 89 real + 300 synthetic transcripts
+Test: 60 real transcripts (held out, never trained on)
+Labels: LLM ensemble majority vote (GPT-4o mini + Gemini 2.5 Flash + Llama 3.3 70B)
+Agreement: 74% full consensus, 82% avg pairwise (up from 53% baseline)
 
 ---
 
-## Pipeline
+## SNR Taxonomy
 
-![Pipeline](assets/pipeline.png)
+| Label | What it means |
+|-------|--------------|
+| **HIGH** | Concrete actionable steps, named frameworks, methodological coherence, solution-oriented |
+| **LOW** | Generic advice, fear-based framing, heavy promotion, repetition without progression |
 
-```
-YouTube URL → Transcript API → Sentence Embeddings → Binary Classifier → HIGH / LOW
-```
-
-1. **Fetch** — YouTube transcripts via `youtube-transcript-api`
-2. **Embed** — `all-MiniLM-L6-v2` sentence transformer (384-dim vectors)
-3. **Classify** — Logistic Regression trained on synthetic transcripts
-4. **Output** — HIGH or LOW signal label with confidence score
+Domain-specific rubrics were calibrated via iterative multi-agent agreement
+optimization. General education: 96.7% weighted agreement. Tech/AI: 81.7%.
+Career: 70% (career self-improvement is harder to calibrate across model architectures).
 
 ---
 
@@ -67,21 +44,12 @@ YouTube URL → Transcript API → Sentence Embeddings → Binary Classifier →
 
 | Split | Source | Size | Labels |
 |-------|--------|------|--------|
-| Test set | Real YouTube transcripts | 60 | LLM ensemble majority vote |
-| Training set | Synthetically generated | 300 | By prompt construction |
-| **Total** | | **360** | |
+| Test | Real YouTube (held out) | 60 | LLM ensemble |
+| Train | Real YouTube | 89 | LLM ensemble |
+| Train | Synthetic (Claude-generated) | 300 | By construction |
+| **Total** | | **449** | |
 
-**Domains:** Career & Self-Improvement · Technology & AI · General Education
-
-**LLM Ensemble:** GPT-4 (OpenAI) + Gemini 1.5 Pro (Google) + Meta AI
-Labels determined by majority vote. Inter-model pairwise agreement: 53%
-(vs 50% random baseline for binary classification).
-
-**Synthetic data:** 150 HIGH + 150 LOW transcripts generated using structured
-prompts. Labels assigned by construction. All prompts published for reproducibility.
-
-**Integrity:** All labels committed to GitHub before model training.
-Timestamped commit history serves as tamper-proof audit trail.
+Domains: Career & Self-Improvement · Technology & AI · General Education
 
 ---
 
@@ -91,101 +59,93 @@ Timestamped commit history serves as tamper-proof audit trail.
 snr-detector/
 ├── data/
 │   ├── labels/
-│   │   ├── gold_dataset_binary.csv     # 60 real transcripts, binary labels
-│   │   └── review_queue.csv            # Raw transcripts sent to LLM ensemble
-│   └── synthetic/
-│       └── synthetic_transcripts.csv   # 300 synthetic training transcripts
+│   │   ├── all_150_silver_labels.csv    # All 150 real transcripts + labels
+│   │   ├── test_set_final.csv           # 60 held-out test transcripts
+│   │   └── train_set_final.csv          # 389 training transcripts
+│   ├── synthetic/
+│   │   └── synthetic_transcripts.csv    # 300 synthetic training transcripts
+│   └── transcripts_new/                 # 90 new real transcripts (JSONL)
 ├── experiments/
-│   └── train_binary_classifier.py      # Full embedding + classifier pipeline
+│   └── train_final_classifier.py        # Main training + evaluation script
 ├── scripts/
-│   ├── fetch_transcripts.py            # YouTube transcript collection
-│   └── score_youtube.py               # V1 deterministic scorer
-├── src/                               # Core library modules
-├── reports/
-│   ├── classifier_results.json         # Full results JSON
-│   └── confusion_matrix.png            # Confusion matrix visualization
-├── assets/                            # README images
-└── README.md
+│   ├── label_150_transcripts.py         # LLM ensemble labeling (needs API keys)
+│   ├── build_final_datasets.py          # Build train/test splits
+│   └── fetch_new_transcripts.py         # Collect YouTube transcripts
+└── reports/
+    ├── classifier_results_final.json    # Full results JSON
+    └── confusion_matrix_final.png       # Confusion matrix
 ```
 
 ---
 
 ## Quickstart
 
+### 1. Install dependencies
+
 ```bash
-# Clone
 git clone https://github.com/biditdas18/snr-detector.git
 cd snr-detector
-
-# Install dependencies
-pip install sentence-transformers scikit-learn pandas numpy \
-            matplotlib seaborn youtube-transcript-api
-
-# Run classifier pipeline
-python experiments/train_binary_classifier.py
-
-# Score a YouTube video
-python scripts/score_youtube.py --url "https://youtube.com/watch?v=VIDEO_ID"
+pip install -r requirements.txt
 ```
 
----
+### 2. Train and evaluate classifier
 
-## Taxonomy
+```bash
+python experiments/train_final_classifier.py
+```
 
-### HIGH Signal Criteria (all required)
-1. **Methodological coherence** — ideas build logically on each other
-2. **Specificity** — concrete steps, named frameworks, verifiable statistics
-3. **Informational novelty** — adds perspective the viewer likely didn't have
-4. **Solution orientation** — problems presented with analysis and next steps
+This trains on `data/labels/train_set_final.csv` and evaluates on
+`data/labels/test_set_final.csv`. No API keys needed — data is
+already labeled and included.
 
-### LOW Signal Indicators (any one sufficient if dominant)
-1. Generic advice without specificity ("work hard, believe in yourself")
-2. Repetition of the same point with no new information
-3. Fear-based framing with no actionable solution ("we are doomed")
-4. Dominant promotional content (course selling, channel plugs)
-5. Logical fallacies: appeal to authority, manufactured urgency, social pressure
+Expected output:
 
----
+```
+SVM RBF:
+  Accuracy: 0.867 | F1: 0.871 | Precision: 0.794 | Recall: 0.964
+```
 
-## Why LLM Annotation Instead of Human Annotation
+### 3. Re-label transcripts (optional — requires API keys)
 
-Human annotation of educational content quality carries two unavoidable failure modes:
+If you want to re-run the full labeling pipeline:
 
-**Creator bias** — A viewer who associates a channel with promotional or fear-based content applies that reputation to every transcript, regardless of what the content actually says. Labels reflect creator identity, not content quality.
+```bash
+export OPENAI_API_KEY="your-key"
+export GOOGLE_API_KEY="your-key"
+export GROQ_API_KEY="your-key"
 
-**Domain bias** — A software engineer rates lifestyle advice as inherently noisy. A viewer invested in immigration content rates general geopolitics as low signal. Annotation quality becomes bounded by the annotator's subject matter preferences — unacceptable for a cross-domain framework.
+python scripts/label_150_transcripts.py
+python scripts/build_final_datasets.py
+python experiments/train_final_classifier.py
+```
 
-LLM ensemble annotation eliminates both. Language models apply the rubric without creator recognition or domain preference, producing labels that reflect content structure rather than annotator identity. This also means labels are legally clean — assigned to transcript content by rubric criteria, not to creators by name or reputation.
+**Never commit API keys to the repository.**
 
 ---
 
 ## Deployment Vision
 
-This framework is designed for two fundamentally different deployment modes with distinct bias profiles:
+**Personal tool:** User bias is a feature. The classifier learns your
+definition of educational value from your feedback history.
 
-**Personal deployment — bias is a feature.**
-A personal SNR tool learns from your feedback. Your domain preferences and creator associations are valid personal signal. The tool warns you about content that matches your historical noise patterns and surfaces content aligned with your definition of educational value. Human bias is intentionally preserved and personalized.
+**Platform tool:** Population-level consensus washes out individual bias.
+YouTube's "was this helpful" signal is an untapped training source.
 
-**Platform deployment — bias must be eliminated.**
-A recommendation filter must generalize across millions of viewers with different domain preferences and creator associations. LLM ensemble annotation — and eventually majority consensus from large-scale user feedback — washes out individual bias. Platform labels reflect population-level signal quality. YouTube's existing "was this helpful" prompt is an untapped training signal for this mode.
-
-The two-mode architecture separates the bias question cleanly: personal tools embrace it, platform tools eliminate it.
+The classifier runs in milliseconds on CPU — no API cost at inference time.
 
 ---
 
 ## Limitations
 
-- Silver labels from LLM ensemble (human validation planned via Prolific)
-- Trained on synthetic data — synthetic-to-real domain shift observed
-- YouTube only — shorter-form platforms require separate validation
-- Three domains — medical, legal, financial content not yet covered
-- Small real test set (n=60) — confidence intervals not reported
+- Silver labels from LLM ensemble (human validation planned)
+- 90 real training transcripts from established educational channels
+  (skews HIGH — LOW signal from synthetic data)
+- YouTube only (shorter-form platforms require adaptation)
+- Three domains (medical, legal, financial not yet covered)
 
 ---
 
 ## Citation
-
-If you use this work, please cite:
 
 ```bibtex
 @article{das2025snr,
@@ -202,10 +162,7 @@ If you use this work, please cite:
 ## Author
 
 **Bidit Das** — Independent Researcher · AWS Escalation Engineer · Dallas, TX
-- arXiv: [ARXIV_ID_HERE]
 - GitHub: [@biditdas18](https://github.com/biditdas18)
 - Medium: [@biditdas18](https://medium.com/@biditdas18)
 
----
-
-*Note: Replace `ARXIV_ID_HERE` with the actual arXiv ID after submission.*
+*Replace `ARXIV_ID_HERE` with actual arXiv ID after submission.*
