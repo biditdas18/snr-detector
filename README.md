@@ -1,4 +1,4 @@
-# SNR-Detect
+# SNR-Detector
 
 **What this is:** A classifier that reads a YouTube video transcript
 and answers one question — is this video worth watching, or is it noise?
