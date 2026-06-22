@@ -1,3 +1,33 @@
+# CHANGES — cleanup-submission-v6
+
+All tasks completed. No fallbacks.
+
+## Task 1 — Appendix B / §4.2 prompt-template mismatch
+**1a (§4.2):** Removed "see Appendix B for full prompt templates" (templates not in appendix);
+replaced with "The generation prompts and resulting transcripts are released in the project
+repository (see Appendix B)."
+**1b (Appendix B):** Appended "The exact generation prompts for each domain and signal level are
+defined in \texttt{generate\_synthetic.py} in the repository." after the prompt-adherence sentence.
+
+## Task 2 — Inference-time domain sentence (end of §5.2)
+Appended after "no information leakage between splits.": "At inference time, the domain label
+can be supplied by the platform taxonomy, selected by the user, inferred with a lightweight
+domain classifier, or omitted entirely; the no-domain ablation in Section 6.2 shows the method
+remains functional without this feature."
+
+## Task 3 — §4 LLM annotation topic sentence softened
+Changed "LLM ensemble annotation mitigates both failure modes." to
+"LLM ensemble annotation is intended to reduce both failure modes."
+
+## Task 4 — Reference [12] (crucible) status updated
+Changed "Companion paper, in preparation. …, 2026." to
+"Companion manuscript submitted to arXiv, 2026. …" (trailing URL, no trailing year after URL).
+
+## Build verification
+pdflatex x2 → 12 pages, no errors, all 12 citations resolved.
+
+---
+
 # CHANGES — cleanup-submission-v5
 
 All tasks completed. No fallbacks.
