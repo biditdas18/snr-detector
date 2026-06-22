@@ -1,3 +1,67 @@
+# CHANGES — cleanup-submission-v3
+
+All tasks completed on branch `cleanup-submission-v3`. No tasks fell back.
+
+---
+
+## Task 0 — Rendering setup verified
+`\usepackage{lmodern}` and `\usepackage{microtype}` confirmed present in preamble (added in v2
+pass). Build is clean; no further change needed for the missing-"i" rendering complaint.
+
+## Task 1 — Softened rubric-calibration causality (3 locations)
+
+**1a (Abstract):** Changed "…over the 53% pairwise agreement obtained with an initial
+domain-agnostic rubric." to "…obtained in the initial domain-agnostic setup (which differed in
+both rubric and judge ensemble)."
+
+**1b (Section 6.3 — Annotation Reliability):** Replaced the single "directly validates" sentence
+with a full paragraph acknowledging the confounded effect (rubric + judge ensemble both changed;
+82% is the production frontier ensemble; Career domain did not converge in the local calibration
+panel).
+
+**1c (Conclusion):** Replaced "We demonstrated that domain-specific rubric calibration resolves
+near-random LLM annotation agreement (53% → 82% pairwise)" with "We showed that moving to
+domain-specific rubrics together with the production labeling ensemble raised pairwise
+inter-model agreement from 53% to 82%."
+
+## Task 2 — Added confidence intervals (Limitations, "Small real test set")
+Replaced "Confidence intervals are not reported due to test set size." with 95% Wilson score
+intervals from the 25/7/1/27 confusion matrix:
+accuracy 0.867 [0.758, 0.931], recall 0.964 [0.823, 0.994], precision 0.794 [0.632, 0.897].
+
+**Bootstrap F1 CI (optional):** SKIPPED — no per-item test-prediction file found in `reports/`.
+Sentence retains "a bootstrap interval for F1 … scoped to future work."
+
+## Task 3 — Softened synthetic "perfect label reliability" (Section 4.2)
+Replaced "This eliminates annotation ambiguity and ensures perfect label reliability…" with
+language noting prompt-adherence errors remain possible; synthetic labels are "high-confidence
+but not error-free."
+
+## Task 4 — Fixed yurdakul2018 citation
+Replaced incorrect arXiv:1809.04233 / single-author entry with:
+Bilal Yurdakul and Joshua D. Naranjo. Statistical properties of the population stability index.
+*Journal of Risk Model Validation*, 2019.
+
+## Task 5 — Added citation for 500-hours claim
+Added `\cite{statista_youtube}` in Introduction after "over 500 hours of video are uploaded
+every minute." Added `statista_youtube` bibitem (Statista, URL, accessed June 2026).
+
+## Task 6 — Softened LLM-bias overclaim (Section 4)
+Changed the "Language models apply the rubric without creator recognition or domain preference"
+sentence to acknowledge LLM annotation *reduces* (not eliminates) human annotator bias, and
+that model-level pretraining bias remains — consistent with silver-label framing.
+
+---
+
+## Build verification
+```
+pdflatex snr_detector_v2.tex  (pass 1) → 12 pages, no errors
+pdflatex snr_detector_v2.tex  (pass 2) → 12 pages, no errors, all \cite resolved
+```
+Total references: 11 (added statista_youtube). Output: papers/snr_detector_v2.pdf
+
+---
+
 # CHANGES — cleanup-submission-v2
 
 All tasks completed on branch `cleanup-submission-v2`. No tasks fell back to fallbacks.
