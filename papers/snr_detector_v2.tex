@@ -59,8 +59,8 @@ transcripts and evaluated on a held-out set of 60 real transcripts (89 + 60 = 14
 transcripts total). The best-performing SVM classifier achieves F1~=~0.871 with
 recall~=~0.964 on the HIGH signal class (measured against silver labels; this reflects internal
 consistency with the labeling pipeline rather than human-validated accuracy), compared to a
-majority-class baseline of F1~=~0.000. We demonstrate that domain-specific rubric calibration
-and real-data augmentation improve both annotation reliability and classification performance
+majority-class baseline of F1~=~0.000. We show that the combination of domain-specific rubrics, a production labeling ensemble, and
+real-data augmentation improves both annotation reliability and classification performance
 relative to synthetic-only training baselines (synthetic-only SVM achieves F1~=~0.747 on the
 same test set).
 
@@ -306,7 +306,7 @@ Total & 150 & 150 & 300 \\
 
 All label files (\texttt{test\_set\_final.csv}, \texttt{train\_set\_final.csv},
 \texttt{all\_150\_silver\_labels.csv}) and result artifacts are version-controlled in a public
-GitHub repository, providing an immutable, publicly auditable record. Labels were not modified
+GitHub repository, providing a timestamped, publicly auditable record. Labels were not modified
 after publication. Synthetic transcript labels are deterministic by construction and fully
 reproducible from the published generation prompts.
 
@@ -495,7 +495,7 @@ judge ensemble (GPT-4 / Gemini 1.5 Pro / Meta AI vs.\ GPT-4o mini / Gemini 2.5 F
 Llama 3.3 70B), this improvement reflects their combined effect; isolating the causal
 contribution of rubric calibration alone would require holding the judge ensemble fixed across
 both rubrics. The 82\% figure refers to the production frontier ensemble; the local calibration
-panel reported in the companion paper converged on two of three domains, with the Career domain
+panel reported in a companion paper~\cite{crucible} converged on two of three domains, with the Career domain
 remaining below target.
 
 The test set labels were assigned by the same class of frontier LLM models used to label the
@@ -639,8 +639,8 @@ human-validated accuracy) with recall~=~0.964 on the HIGH signal class---compare
 for a synthetic-only baseline evaluated on the same test set.
 
 The key contributions are methodological: a reproducible pipeline for dataset construction
-without exhaustive manual annotation, a domain-specific rubric calibration procedure that
-substantially improves LLM ensemble annotation reliability, and a deployable classifier that
+without exhaustive manual annotation, a domain-specific rubric calibration procedure that, together with the production labeling
+ensemble, contributes to improved LLM ensemble annotation reliability, and a deployable classifier that
 approximates LLM judgment at a fraction of the inference cost. The framework lays groundwork for
 platform-level content filtering and personalized quality learning systems where real-time,
 low-cost inference is a hard requirement.
@@ -698,12 +698,17 @@ Haibo He and Edwardo A. Garcia.
 \bibitem{yurdakul2018}
 Bilal Yurdakul and Joshua D. Naranjo.
 \newblock Statistical properties of the population stability index.
-\newblock {\em Journal of Risk Model Validation}, 2019.
+\newblock {\em Journal of Risk Model Validation}, 14(4), 2020.
 
 \bibitem{statista_youtube}
 Statista.
 \newblock Hours of video uploaded to YouTube every minute.
 \newblock \url{https://www.statista.com/statistics/259477/hours-of-video-uploaded-to-youtube-every-minute/}, accessed June 2026.
+
+\bibitem{crucible}
+Bidit Das.
+\newblock {CRUCIBLE}: A multi-agent framework for automated annotation rubric calibration via iterative inter-judge disagreement resolution.
+\newblock Companion paper, in preparation. Code and calibration logs: \url{https://github.com/biditdas18/rubric-calibration-agent}, 2026.
 
 \end{thebibliography}
 
@@ -761,7 +766,7 @@ The 300 synthetic transcripts used for classifier training are available in the 
 repository at: \url{https://github.com/biditdas18/snr-detector/blob/main/data/synthetic/synthetic_transcripts.csv}
 
 Each transcript includes domain, signal level (HIGH/LOW), and generated text. Labels are
-assigned by construction from the generation prompt---HIGH prompts produce HIGH transcripts by
-definition.
+Labels follow the generation prompt: HIGH prompts are intended to produce HIGH-signal transcripts,
+though prompt adherence is not guaranteed (see Section 4.2).
 
 \end{document}

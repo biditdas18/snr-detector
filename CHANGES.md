@@ -1,3 +1,48 @@
+# CHANGES — cleanup-submission-v4
+
+All tasks completed on branch `cleanup-submission-v4`. No tasks fell back.
+
+---
+
+## Task 1 — Cite companion paper (§6.3 + bibitem)
+Added `\cite{crucible}` inline: "local calibration panel reported in a companion paper~\cite{crucible}".
+Added `crucible` bibitem after the Statista entry (repo-only citation; no DOI/arXiv invented).
+
+## Task 2 — "immutable" → "timestamped" (§4.3)
+Changed "providing an immutable, publicly auditable record." to
+"providing a timestamped, publicly auditable record."
+
+## Task 3 — Appendix B "by definition" softened
+Changed "Labels are assigned by construction from the generation prompt---HIGH prompts produce
+HIGH transcripts by definition." to "Labels follow the generation prompt: HIGH prompts are
+intended to produce HIGH-signal transcripts, though prompt adherence is not guaranteed
+(see Section 4.2)."
+
+## Task 4 — Yurdakul volume/year corrected
+Changed "Journal of Risk Model Validation, 2019." to
+"Journal of Risk Model Validation, 14(4), 2020." (journal-of-record issue, not online-first).
+
+## Task 5 — Abstract causality softened
+Changed "We demonstrate that domain-specific rubric calibration and real-data augmentation
+improve…" to "We show that the combination of domain-specific rubrics, a production labeling
+ensemble, and real-data augmentation improves…"
+
+## Task 6 — Conclusion causality softened
+Changed "a domain-specific rubric calibration procedure that substantially improves LLM ensemble
+annotation reliability" to "a domain-specific rubric calibration procedure that, together with
+the production labeling ensemble, contributes to improved LLM ensemble annotation reliability."
+
+---
+
+## Build verification
+```
+pdflatex snr_detector_v2.tex  (pass 1) → 12 pages, no errors
+pdflatex snr_detector_v2.tex  (pass 2) → 12 pages, no errors, all \cite resolved
+```
+Total references: 12 (added crucible as [12]). Output: papers/snr_detector_v2.pdf
+
+---
+
 # CHANGES — cleanup-submission-v3
 
 All tasks completed on branch `cleanup-submission-v3`. No tasks fell back.
