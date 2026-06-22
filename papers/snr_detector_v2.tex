@@ -49,7 +49,7 @@ We construct a dataset of 150 real YouTube transcripts (149 received usable ense
 spanning three domains: career and self-improvement, technology and artificial intelligence, and
 general education. Real transcripts are labeled via a three-model LLM ensemble (GPT-4o mini,
 Gemini 2.5 Flash, Llama 3.3 70B) using calibrated domain-specific rubrics, achieving 74\% full
-three-model consensus and 82\% average pairwise agreement---a significant improvement over the
+three-model consensus and 82\% average pairwise agreement---a substantial improvement over the
 53\% pairwise agreement obtained in the initial domain-agnostic setup (which differed in both
 rubric and judge ensemble). Labels are treated as
 silver quality throughout.
@@ -219,9 +219,9 @@ LLM-as-judge paradigm~\cite{zheng2023}, reducing single-model bias through ensem
 Final labels were determined by majority vote; one transcript (0.7\%) was excluded due to
 simultaneous API failures from two of three models.
 
-The calibrated domain-specific rubrics improved average pairwise inter-model agreement from
-53\% (domain-agnostic) to 82\% across domains, with 74\% of transcripts achieving full
-three-model consensus. Weighted inter-judge agreement---assigning 1.0 for unanimous consensus
+The production labeling setup---combining calibrated domain-specific rubrics with the final
+judge ensemble---achieved 82\% average pairwise agreement (74\% full three-model consensus),
+compared with 53\% in the initial domain-agnostic setup. Weighted inter-judge agreement---assigning 1.0 for unanimous consensus
 and 0.667 for majority consensus---reached 91\% overall. All labels are treated as silver
 quality; human validation is planned as future work.
 
@@ -668,7 +668,7 @@ Emily Pitler and Ani Nenkova.
 \bibitem{zheng2023}
 Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric~P. Xing, Hao Zhang, Joseph~E. Gonzalez, and Ion Stoica.
 \newblock Judging {LLM}-as-a-judge with {MT}-bench and chatbot arena.
-\newblock In {\em Advances in Neural Information Processing Systems}, volume~36, 2023.
+\newblock In {\em Advances in Neural Information Processing Systems}, volume~36, pages 46595--46623, 2023.
 
 \bibitem{fu2023}
 Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, and Pengfei Liu.
@@ -765,8 +765,8 @@ patterns ($>$30\% of transcript), assign LOW.
 The 300 synthetic transcripts used for classifier training are available in the project
 repository at: \url{https://github.com/biditdas18/snr-detector/blob/main/data/synthetic/synthetic_transcripts.csv}
 
-Each transcript includes domain, signal level (HIGH/LOW), and generated text. Labels are
-Labels follow the generation prompt: HIGH prompts are intended to produce HIGH-signal transcripts,
-though prompt adherence is not guaranteed (see Section 4.2).
+Each transcript includes domain, signal level (HIGH/LOW), and generated text. Labels follow
+the generation prompt: HIGH prompts are intended to produce HIGH-signal transcripts, though
+prompt adherence is not guaranteed (see Section 4.2).
 
 \end{document}

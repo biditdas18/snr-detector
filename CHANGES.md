@@ -1,3 +1,33 @@
+# CHANGES — cleanup-submission-v5
+
+All tasks completed. No fallbacks.
+
+## Task 1 — Abstract: "significant" → "substantial"
+Changed "82% average pairwise agreement---a significant improvement over the 53%" to
+"---a substantial improvement over the 53%". Only this occurrence changed.
+
+## Task 2 — §4.1 LLM Ensemble Annotation: remove rubric-only causality
+Replaced "The calibrated domain-specific rubrics improved average pairwise inter-model
+agreement from 53% (domain-agnostic) to 82% across domains, with 74% of transcripts achieving
+full three-model consensus." with "The production labeling setup—combining calibrated
+domain-specific rubrics with the final judge ensemble—achieved 82% average pairwise agreement
+(74% full three-model consensus), compared with 53% in the initial domain-agnostic setup."
+
+## Task 3 — Appendix B: fix garbled duplication
+Removed the duplicated "Labels are / Labels follow" fragment; sentence now reads cleanly:
+"Labels follow the generation prompt: HIGH prompts are intended to produce HIGH-signal
+transcripts, though prompt adherence is not guaranteed (see Section 4.2)."
+
+## Task 4 — Yurdakul year: already correct (14(4), 2020). No change.
+
+## Task 5 — zheng2023 page numbers added (optional)
+Added "pages 46595--46623" to MT-Bench NeurIPS entry. Build clean.
+
+## Build verification
+pdflatex x2 → 12 pages, no errors, all 12 citations resolved.
+
+---
+
 # CHANGES — cleanup-submission-v4
 
 All tasks completed on branch `cleanup-submission-v4`. No tasks fell back.
