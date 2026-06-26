@@ -1,0 +1,8 @@
+{
+  "SVM_RBF_no_domain_feature": {
+    "accuracy": 0.8333,
+    "f1": 0.8438,
+    "precision": 0.75,
+    "recall": 0.9643
+  }
+}
